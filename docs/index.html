@@ -104,7 +104,7 @@ function h(tag, cls, text){
 const pct = p => Math.round(p * 100) + "%";
 const when = (iso, opts) => iso ? new Date(iso).toLocaleString([], opts) : "";
 
-function formBlock(name, f){
+function formBlock(name, f, inj){
   const box = h("div");
   box.append(h("h3", null, name));
   const chips = h("div", "chips");
@@ -114,6 +114,7 @@ function formBlock(name, f){
     ? `Last ${f.form.length}: ${f.goals_for} scored, ${f.goals_against} conceded. xG ${f.xg_for} for, ${f.xg_against} against per game.`
     : `Last ${f.form.length}: ${f.goals_for} scored, ${f.goals_against} conceded.`;
   box.append(h("div", "small", line));
+  if (inj) box.append(h("div", "small doubt", `${inj} regular players injured`));
   return box;
 }
 function scorerBlock(list){
@@ -121,7 +122,8 @@ function scorerBlock(list){
   if (!list.length) box.append(h("div", "small", "No data yet."));
   for (const p of list){
     const row = h("div", "sc");
-    row.append(h("span", p.doubt ? "doubt" : null, p.name + (p.doubt ? " (doubt)" : "")), h("b", null, pct(p.prob)));
+    const label = (p.fav ? "★ " : "") + p.name + (p.pen ? " (P)" : "") + (p.doubt ? " (doubt)" : "");
+    row.append(h("span", p.doubt ? "doubt" : null, label), h("b", null, pct(p.prob)));
     box.append(row);
   }
   return box;
@@ -149,10 +151,14 @@ function fixtureCard(f){
   const d = h("details");
   d.append(h("summary", null, "Form and likely scorers"));
   const form = h("div", "cols");
-  form.append(formBlock(f.home, f.form_home), formBlock(f.away, f.form_away));
+  form.append(formBlock(f.home, f.form_home, f.injured_home), formBlock(f.away, f.form_away, f.injured_away));
   const sc = h("div", "cols");
   sc.append(scorerBlock(f.scorers_home), scorerBlock(f.scorers_away));
-  d.append(form, h("div", "small", "Chance to score, from recent xG:"), sc);
+  const as = h("div", "cols");
+  as.append(scorerBlock(f.assists_home || []), scorerBlock(f.assists_away || []));
+  d.append(form,
+    h("div", "small", "Chance to score (★ favourite, P penalty taker):"), sc,
+    h("div", "small", "Chance to assist:"), as);
   c.append(d);
   return c;
 }
@@ -270,5 +276,5 @@ fetch("data.json?" + Date.now())
   });
 </script>
 </body>
-</html>
-
+  </html>
+                                                            
