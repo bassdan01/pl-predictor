@@ -13,7 +13,9 @@ from collections import defaultdict
 from datetime import datetime, timezone
 
 BASE = "https://fantasy.premierleague.com/api"
-OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs", "data.json")
+HERE = os.path.dirname(os.path.abspath(__file__))
+OUT = os.path.join(HERE, "docs", "data.json")
+HIST = os.path.join(HERE, "docs", "history.json")
 
 # ---- Tunable settings -------------------------------------------------------
 FORM_GAMES = 3        # how many recent games count as "form"
@@ -57,13 +59,18 @@ def score_grid(lh, la):
     return ph / total, pd / total, pa / total, best
 
 
-def build(fetch=get):
+def outcome(h, a):
+    return "H" if h > a else "D" if h == a else "A"
+
+
+def build(fetch=get, history=None, now=None):
     boot = fetch("bootstrap-static/")
     fixtures = fetch("fixtures/")
 
     teams = {t["id"]: t["name"] for t in boot["teams"]}
     events = boot["events"]
-    gw = next((e for e in events if not e["finished"]), events[-1])
+    gw = next((e for e in events if e.get("is_next")), None) or \
+        next((e for e in events if not e["finished"]), events[-1])
 
     def is_played(f):
         return (f.get("finished") or f.get("finished_provisional")) and \
@@ -196,6 +203,7 @@ def build(fetch=get):
         ph, pd_, pa, (bh, ba) = score_grid(lh, la)
         started = f.get("team_h_score") is not None
         out_fix.append({
+            "id": f["id"], "gw": gw["id"],
             "kickoff": f.get("kickoff_time"),
             "home": teams[h], "away": teams[a],
             "xg_home": round(lh, 2), "xg_away": round(la, 2),
@@ -211,6 +219,69 @@ def build(fetch=get):
         ranking.append({"team": teams[a], "opp": teams[h], "venue": "A", "win": round(pa, 3)})
     ranking.sort(key=lambda r: r["win"], reverse=True)
 
+    # ---- track how well past predictions did ---------------------------------
+    hist = history if history is not None else {}
+    now = now or datetime.now(timezone.utc)
+    names = {e["id"]: e["web_name"] for e in boot["elements"]}
+
+    def kicked_off(iso):
+        return bool(iso) and datetime.fromisoformat(iso.replace("Z", "+00:00")) <= now
+
+    # Predictions are saved only before kick-off, then frozen.
+    for o in out_fix:
+        if kicked_off(o["kickoff"]):
+            continue
+        hist[str(o["id"])] = {
+            "gw": o["gw"], "kickoff": o["kickoff"],
+            "home": o["home"], "away": o["away"],
+            "pred": [o["pred_home"], o["pred_away"]],
+            "p": [o["p_home"], o["p_draw"], o["p_away"]],
+            "scorers_home": [s["name"] for s in o["scorers_home"]],
+            "scorers_away": [s["name"] for s in o["scorers_away"]],
+            "actual": None,
+        }
+
+    by_id = {str(f["id"]): f for f in fixtures}
+    for fid, rec in hist.items():
+        f = by_id.get(fid)
+        if rec.get("actual") or not f or not is_played(f):
+            continue
+        goals = {"h": [], "a": []}
+        for s in f.get("stats", []):
+            if s.get("identifier") == "goals_scored":
+                for side in ("h", "a"):
+                    for x in s.get(side, []):
+                        goals[side].append({"name": names.get(x["element"], "?"), "n": x["value"]})
+        rec["actual"] = {"score": [f["team_h_score"], f["team_a_score"]],
+                         "scorers_home": goals["h"], "scorers_away": goals["a"]}
+
+    done = sorted((r for r in hist.values() if r.get("actual")),
+                  key=lambda r: r["kickoff"] or "", reverse=True)
+    right = exact = named = hit_total = 0
+    res_matches = []
+    for r in done:
+        a = r["actual"]
+        pick = ["H", "D", "A"][r["p"].index(max(r["p"]))]
+        ok = pick == outcome(*a["score"])
+        ex = r["pred"] == a["score"]
+        ph = [{"name": n, "hit": n in {x["name"] for x in a["scorers_home"]}} for n in r["scorers_home"]]
+        pa = [{"name": n, "hit": n in {x["name"] for x in a["scorers_away"]}} for n in r["scorers_away"]]
+        right += ok
+        exact += ex
+        named += len(ph) + len(pa)
+        hit_total += sum(x["hit"] for x in ph + pa)
+        res_matches.append({
+            "gw": r["gw"], "kickoff": r["kickoff"], "home": r["home"], "away": r["away"],
+            "pred": r["pred"], "actual": a["score"], "result_ok": ok, "exact": ex,
+            "scored_home": a["scorers_home"], "scored_away": a["scorers_away"],
+            "pred_home": ph, "pred_away": pa,
+        })
+    results = {
+        "summary": {"matches": len(done), "result_right": right, "exact": exact,
+                    "scorers_named": named, "scorers_hit": hit_total},
+        "matches": res_matches,
+    }
+
     return {
         "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "gameweek": gw["id"],
@@ -220,14 +291,21 @@ def build(fetch=get):
         "games_played": n_games,
         "fixtures": out_fix,
         "ranking": ranking,
-    }
+        "results": results,
+    }, hist
 
 
 def main():
-    data = build()
+    history = {}
+    if os.path.exists(HIST):
+        with open(HIST) as fh:
+            history = json.load(fh)
+    data, history = build(history=history)
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w") as fh:
         json.dump(data, fh, indent=1)
+    with open(HIST, "w") as fh:
+        json.dump(history, fh, indent=1)
     print(f"Wrote {OUT}: {data['gameweek_name']}, {len(data['fixtures'])} fixtures, "
           f"xG {'on' if data['uses_xg'] else 'off'}")
 
