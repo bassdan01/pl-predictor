@@ -1,0 +1,262 @@
+{
+ "77": {
+  "gw": 8,
+  "kickoff": "2026-10-23T19:00:00Z",
+  "home": "Ipswich Town",
+  "away": "Nott'm Forest",
+  "pred": [
+   1,
+   1
+  ],
+  "p": [
+   0.434,
+   0.243,
+   0.323
+  ],
+  "scorers_home": [
+   "Flemming",
+   "Akpom",
+   "Emersonn"
+  ],
+  "scorers_away": [
+   "Delap",
+   "Ndoye",
+   "Mu\u00f1oz"
+  ],
+  "actual": null
+ },
+ "72": {
+  "gw": 8,
+  "kickoff": "2026-10-24T11:30:00Z",
+  "home": "Aston Villa",
+  "away": "Man City",
+  "pred": [
+   1,
+   2
+  ],
+  "p": [
+   0.298,
+   0.208,
+   0.493
+  ],
+  "scorers_home": [
+   "Manzambi",
+   "N.Jackson",
+   "McGinn"
+  ],
+  "scorers_away": [
+   "Haaland",
+   "Foden",
+   "O'Reilly"
+  ],
+  "actual": null
+ },
+ "71": {
+  "gw": 8,
+  "kickoff": "2026-10-24T14:00:00Z",
+  "home": "Arsenal",
+  "away": "Everton",
+  "pred": [
+   1,
+   0
+  ],
+  "p": [
+   0.507,
+   0.268,
+   0.225
+  ],
+  "scorers_home": [
+   "Havertz",
+   "Saka",
+   "\u00d8degaard"
+  ],
+  "scorers_away": [
+   "Barry",
+   "Johnson",
+   "Dewsbury-Hall"
+  ],
+  "actual": null
+ },
+ "74": {
+  "gw": 8,
+  "kickoff": "2026-10-24T14:00:00Z",
+  "home": "Coventry City",
+  "away": "Fulham",
+  "pred": [
+   1,
+   1
+  ],
+  "p": [
+   0.357,
+   0.276,
+   0.367
+  ],
+  "scorers_home": [
+   "Rudoni",
+   "Awoniyi",
+   "Cherif"
+  ],
+  "scorers_away": [
+   "Gonzalo",
+   "Bobb",
+   "Palacios"
+  ],
+  "actual": null
+ },
+ "73": {
+  "gw": 8,
+  "kickoff": "2026-10-24T16:30:00Z",
+  "home": "Chelsea",
+  "away": "Spurs",
+  "pred": [
+   1,
+   1
+  ],
+  "p": [
+   0.544,
+   0.234,
+   0.222
+  ],
+  "scorers_home": [
+   "Jo\u00e3o Pedro",
+   "Rogers",
+   "Neto"
+  ],
+  "scorers_away": [
+   "Gallagher",
+   "Solanke",
+   "Kudus"
+  ],
+  "actual": null
+ },
+ "75": {
+  "gw": 8,
+  "kickoff": "2026-10-25T14:00:00Z",
+  "home": "Crystal Palace",
+  "away": "Newcastle",
+  "pred": [
+   1,
+   1
+  ],
+  "p": [
+   0.396,
+   0.223,
+   0.381
+  ],
+  "scorers_home": [
+   "Mateta",
+   "Lerma",
+   "Nketiah"
+  ],
+  "scorers_away": [
+   "Wissa",
+   "Willock",
+   "Barnes"
+  ],
+  "actual": null
+ },
+ "76": {
+  "gw": 8,
+  "kickoff": "2026-10-25T14:00:00Z",
+  "home": "Hull City",
+  "away": "Brentford",
+  "pred": [
+   1,
+   1
+  ],
+  "p": [
+   0.329,
+   0.259,
+   0.412
+  ],
+  "scorers_home": [
+   "Gelhardt",
+   "Belloumi",
+   "McBurnie"
+  ],
+  "scorers_away": [
+   "Thiago",
+   "Schade",
+   "Anthony"
+  ],
+  "actual": null
+ },
+ "78": {
+  "gw": 8,
+  "kickoff": "2026-10-25T14:00:00Z",
+  "home": "Liverpool",
+  "away": "Brighton",
+  "pred": [
+   0,
+   1
+  ],
+  "p": [
+   0.188,
+   0.229,
+   0.583
+  ],
+  "scorers_home": [
+   "Isak",
+   "Koumas",
+   "Barcola"
+  ],
+  "scorers_away": [
+   "Yalcouy\u00e9",
+   "Kostoulas",
+   "Gro\u00df"
+  ],
+  "actual": null
+ },
+ "79": {
+  "gw": 8,
+  "kickoff": "2026-10-25T14:00:00Z",
+  "home": "Man Utd",
+  "away": "Bournemouth",
+  "pred": [
+   1,
+   1
+  ],
+  "p": [
+   0.432,
+   0.25,
+   0.319
+  ],
+  "scorers_home": [
+   "Mbeumo",
+   "Rashford",
+   "B.Fernandes"
+  ],
+  "scorers_away": [
+   "Evanilson",
+   "Tavernier",
+   "Christie"
+  ],
+  "actual": null
+ },
+ "80": {
+  "gw": 8,
+  "kickoff": "2026-10-25T16:30:00Z",
+  "home": "Sunderland",
+  "away": "Leeds",
+  "pred": [
+   1,
+   1
+  ],
+  "p": [
+   0.256,
+   0.248,
+   0.496
+  ],
+  "scorers_home": [
+   "Brobbey",
+   "Isidor",
+   "Fofana"
+  ],
+  "scorers_away": [
+   "Calvert-Lewin",
+   "Nmecha",
+   "Stach"
+  ],
+  "actual": null
+ }
+}
