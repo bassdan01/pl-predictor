@@ -62,6 +62,19 @@ summary::-webkit-details-marker{display:none}
 .rank .pc{font-weight:800;font-size:18px;font-variant-numeric:tabular-nums}
 .rank .meter{height:4px;border-radius:2px;background:var(--home);margin-top:5px}
 .msg{padding:24px 6px;color:var(--mute)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 10px;text-align:center}
+.stat b{display:block;font-size:26px;font-weight:800;font-variant-numeric:tabular-nums;color:var(--home)}
+.stat span{font-size:12px;color:var(--mute);line-height:1.25;display:block}
+.stat em{font-style:normal;font-size:12px;color:var(--mute);font-variant-numeric:tabular-nums}
+.gwh{font-weight:800;margin:16px 2px 8px}
+.verdict{display:flex;gap:6px;margin-top:8px;font-size:12px;font-weight:700}
+.verdict span{padding:3px 8px;border-radius:999px;background:var(--draw);color:var(--ink)}
+.verdict .ok{background:var(--win);color:#fff}
+.verdict .bad{background:var(--loss);color:#fff}
+@media (prefers-color-scheme:dark){.verdict .ok,.verdict .bad{color:#150a22}}
+.hit{font-weight:800;color:var(--win)}
+.miss{color:var(--mute)}
 footer{padding:0 18px 24px;text-align:center;font-size:12px;color:var(--mute)}
 button:focus-visible,summary:focus-visible{outline:2px solid var(--home);outline-offset:2px}
 </style>
@@ -74,6 +87,7 @@ button:focus-visible,summary:focus-visible{outline:2px solid var(--home);outline
 <div class="tabs" role="tablist">
   <button role="tab" aria-selected="true" data-v="fix">Fixtures</button>
   <button role="tab" aria-selected="false" data-v="rank">Most likely to win</button>
+  <button role="tab" aria-selected="false" data-v="res">Results</button>
 </div>
 <main id="app"><div class="msg">Loading predictions…</div></main>
 <footer id="foot"></footer>
@@ -158,14 +172,77 @@ function rankView(){
   return card;
 }
 
+function listScorers(list){
+  return list.length ? list.map(s => s.name + (s.n > 1 ? " ×" + s.n : "")).join(", ") : "none";
+}
+function predList(list){
+  const box = h("div");
+  list.forEach((s, i) => {
+    if (i) box.append(document.createTextNode(", "));
+    box.append(h("span", s.hit ? "hit" : "miss", s.name));
+  });
+  return box;
+}
+function ratio(a, b){ return b ? Math.round(a / b * 100) + "%" : "–"; }
+
+function resultsView(){
+  const wrap = h("div");
+  const r = data.results;
+  if (!r || !r.summary.matches){
+    wrap.append(h("div", "msg", "Results appear here once matches finish. Predictions are saved before kick-off and checked afterwards, starting with the gameweek now showing."));
+    return wrap;
+  }
+  const s = r.summary;
+  const stats = h("div", "stats");
+  for (const [big, label, sub] of [
+    [ratio(s.result_right, s.matches), "Right result", `${s.result_right} of ${s.matches}`],
+    [ratio(s.exact, s.matches), "Exact score", `${s.exact} of ${s.matches}`],
+    [ratio(s.scorers_hit, s.scorers_named), "Named scorers who scored", `${s.scorers_hit} of ${s.scorers_named}`],
+  ]){
+    const c = h("div", "stat");
+    c.append(h("b", null, big), h("span", null, label), h("em", null, sub));
+    stats.append(c);
+  }
+  wrap.append(stats);
+
+  let lastGw = null;
+  for (const m of r.matches){
+    if (m.gw !== lastGw){ wrap.append(h("div", "gwh", "Gameweek " + m.gw)); lastGw = m.gw; }
+    const c = h("div", "card");
+    c.append(h("div", "ko", when(m.kickoff, {weekday:"short", day:"numeric", month:"short"})));
+    const row = h("div", "match");
+    row.append(h("div", "t", m.home), h("div", "score", `${m.actual[0]} – ${m.actual[1]}`), h("div", "t r", m.away));
+    c.append(row);
+    c.append(h("div", "actual", `Predicted ${m.pred[0]} – ${m.pred[1]}`));
+    const v = h("div", "verdict");
+    v.append(h("span", m.result_ok ? "ok" : "bad", m.result_ok ? "Result right" : "Result missed"));
+    if (m.exact) v.append(h("span", "ok", "Exact score"));
+    c.append(v);
+    const d = h("details");
+    d.append(h("summary", null, "Scorers"));
+    const cols = h("div", "cols");
+    for (const [name, scored, pred] of [[m.home, m.scored_home, m.pred_home], [m.away, m.scored_away, m.pred_away]]){
+      const b = h("div");
+      b.append(h("h3", null, name), h("div", "small", "Scored: " + listScorers(scored)), h("div", "small", "Predicted:"), predList(pred));
+      cols.append(b);
+    }
+    d.append(cols);
+    c.append(d);
+    wrap.append(c);
+  }
+  return wrap;
+}
+
 function render(){
   app.replaceChildren();
   if (!data){ return; }
   if (view === "fix"){
     if (!data.fixtures.length) app.append(h("div", "msg", "No fixtures in this gameweek."));
     for (const f of data.fixtures) app.append(fixtureCard(f));
-  } else {
+  } else if (view === "rank"){
     app.append(rankView());
+  } else {
+    app.append(resultsView());
   }
 }
 
@@ -193,5 +270,5 @@ fetch("data.json?" + Date.now())
   });
 </script>
 </body>
-    </html>
-    
+</html>
+
