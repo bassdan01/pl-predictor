@@ -177,10 +177,14 @@ def build(fetch=get, history=None, now=None, odds=None):
              for t in boot["teams"]}
     raw_d = {t["id"]: (t.get("strength_defence_home", 1000) + t.get("strength_defence_away", 1000)) / 2
              for t in boot["teams"]}
-    avg_a = sum(raw_a.values()) / len(raw_a)
-    avg_d = sum(raw_d.values()) / len(raw_d)
-    prior_att = {t: (raw_a[t] / avg_a) ** 1.5 for t in teams}
-    prior_dfn = {t: (avg_d / raw_d[t]) ** 1.5 for t in teams}
+    if raw_a and all(v > 0 for v in raw_a.values()) and all(v > 0 for v in raw_d.values()):
+        avg_a = sum(raw_a.values()) / len(raw_a)
+        avg_d = sum(raw_d.values()) / len(raw_d)
+        prior_att = {t: (raw_a[t] / avg_a) ** 1.5 for t in teams}
+        prior_dfn = {t: (avg_d / raw_d[t]) ** 1.5 for t in teams}
+    else:  # FPL ratings missing or zero: start every team at league average
+        prior_att = {t: 1.0 for t in teams}
+        prior_dfn = {t: 1.0 for t in teams}
 
     # ---- xG from recent gameweeks (FPL live data) ----------------------------
     form_games = {t: results[t][-FORM_GAMES:] for t in teams}
