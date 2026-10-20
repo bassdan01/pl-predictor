@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T12:18:46+00:00",
+ "generated": "2026-10-20T18:19:02+00:00",
  "gameweek": 8,
  "gameweek_name": "Gameweek 8",
  "deadline": "2026-10-23T17:30:00Z",
@@ -207,9 +207,9 @@
      "doubt": false
     },
     {
-     "name": "Gomes",
-     "prob": 0.072,
-     "doubt": false
+     "name": "Maatsen",
+     "prob": 0.105,
+     "doubt": true
     }
    ],
    "assists_away": [
