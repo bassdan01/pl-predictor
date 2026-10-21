@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T12:20:36+00:00",
+ "generated": "2026-10-21T18:18:40+00:00",
  "gameweek": 8,
  "gameweek_name": "Gameweek 8",
  "deadline": "2026-10-23T17:30:00Z",
@@ -78,7 +78,7 @@
     {
      "name": "Gibbs-White",
      "prob": 0.285,
-     "doubt": true,
+     "doubt": false,
      "pen": true,
      "fav": false
     }
@@ -104,7 +104,7 @@
     {
      "name": "Gibbs-White",
      "prob": 0.32,
-     "doubt": true
+     "doubt": false
     },
     {
      "name": "Ndoye",
@@ -209,7 +209,7 @@
     {
      "name": "Maatsen",
      "prob": 0.105,
-     "doubt": true
+     "doubt": false
     }
    ],
    "assists_away": [
