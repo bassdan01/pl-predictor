@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T18:18:40+00:00",
+ "generated": "2026-10-22T00:12:57+00:00",
  "gameweek": 8,
  "gameweek_name": "Gameweek 8",
  "deadline": "2026-10-23T17:30:00Z",
@@ -265,7 +265,7 @@
     {
      "name": "Saka",
      "prob": 0.309,
-     "doubt": false,
+     "doubt": true,
      "pen": true,
      "fav": true
     },
@@ -321,7 +321,7 @@
     {
      "name": "Saka",
      "prob": 0.121,
-     "doubt": false
+     "doubt": true
     }
    ],
    "assists_away": [
