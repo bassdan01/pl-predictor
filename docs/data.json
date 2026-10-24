@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T00:14:48+00:00",
+ "generated": "2026-10-24T06:16:08+00:00",
  "gameweek": 9,
  "gameweek_name": "Gameweek 9",
  "deadline": "2026-10-31T11:00:00Z",
@@ -238,9 +238,9 @@
    "away": "Nott'm Forest",
    "xg_home": 1.6,
    "xg_away": 0.94,
-   "p_home": 0.516,
+   "p_home": 0.517,
    "p_draw": 0.274,
-   "p_away": 0.21,
+   "p_away": 0.209,
    "pred_home": 1,
    "pred_away": 1,
    "actual": null,
@@ -254,7 +254,7 @@
    },
    "form_away": {
     "form": "DWLLLD",
-    "xg_for": 1.82,
+    "xg_for": 1.81,
     "xg_against": 1.13,
     "goals_for": 4,
     "goals_against": 7
@@ -287,21 +287,21 @@
    "scorers_away": [
     {
      "name": "Delap",
-     "prob": 0.316,
+     "prob": 0.309,
      "doubt": false,
      "pen": false,
      "fav": true
     },
     {
      "name": "Ndoye",
-     "prob": 0.296,
+     "prob": 0.301,
      "doubt": false,
      "pen": false,
      "fav": false
     },
     {
      "name": "Gibbs-White",
-     "prob": 0.236,
+     "prob": 0.237,
      "doubt": false,
      "pen": true,
      "fav": false
@@ -327,7 +327,7 @@
    "assists_away": [
     {
      "name": "Gibbs-White",
-     "prob": 0.255,
+     "prob": 0.25,
      "doubt": false
     },
     {
@@ -462,9 +462,9 @@
    "away": "Ipswich Town",
    "xg_home": 1.65,
    "xg_away": 1.14,
-   "p_home": 0.481,
+   "p_home": 0.48,
    "p_draw": 0.267,
-   "p_away": 0.252,
+   "p_away": 0.253,
    "pred_home": 1,
    "pred_away": 1,
    "actual": null,
@@ -479,7 +479,7 @@
    "form_away": {
     "form": "LWLWLD",
     "xg_for": 1.23,
-    "xg_against": 1.84,
+    "xg_against": 1.83,
     "goals_for": 8,
     "goals_against": 10
    },
@@ -488,14 +488,14 @@
    "scorers_home": [
     {
      "name": "Gelhardt",
-     "prob": 0.62,
+     "prob": 0.619,
      "doubt": false,
      "pen": false,
      "fav": true
     },
     {
      "name": "Belloumi",
-     "prob": 0.184,
+     "prob": 0.183,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -1138,7 +1138,7 @@
    "team": "Brentford",
    "opp": "Nott'm Forest",
    "venue": "H",
-   "win": 0.516
+   "win": 0.517
   },
   {
    "team": "Spurs",
@@ -1150,7 +1150,7 @@
    "team": "Hull City",
    "opp": "Ipswich Town",
    "venue": "H",
-   "win": 0.481
+   "win": 0.48
   },
   {
    "team": "Brighton",
@@ -1228,7 +1228,7 @@
    "team": "Ipswich Town",
    "opp": "Hull City",
    "venue": "A",
-   "win": 0.252
+   "win": 0.253
   },
   {
    "team": "Crystal Palace",
@@ -1246,7 +1246,7 @@
    "team": "Nott'm Forest",
    "opp": "Brentford",
    "venue": "A",
-   "win": 0.21
+   "win": 0.209
   }
  ],
  "results": {
