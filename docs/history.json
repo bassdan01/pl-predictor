@@ -66,7 +66,24 @@
    "Foden",
    "O'Reilly"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    2,
+    1
+   ],
+   "scorers_home": [
+    {
+     "name": "N.Jackson",
+     "n": 2
+    }
+   ],
+   "scorers_away": [
+    {
+     "name": "Haaland",
+     "n": 1
+    }
+   ]
+  }
  },
  "71": {
   "gw": 8,
@@ -92,7 +109,23 @@
    "Johnson",
    "Dewsbury-Hall"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    2,
+    0
+   ],
+   "scorers_home": [
+    {
+     "name": "Gabriel",
+     "n": 1
+    },
+    {
+     "name": "Konsa",
+     "n": 1
+    }
+   ],
+   "scorers_away": []
+  }
  },
  "74": {
   "gw": 8,
@@ -118,7 +151,19 @@
    "Palacios",
    "King"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    0,
+    1
+   ],
+   "scorers_home": [],
+   "scorers_away": [
+    {
+     "name": "Bobb",
+     "n": 1
+    }
+   ]
+  }
  },
  "73": {
   "gw": 8,
@@ -286,9 +331,9 @@
    1
   ],
   "p": [
-   0.554,
-   0.219,
-   0.228
+   0.559,
+   0.217,
+   0.224
   ],
   "scorers_home": [
    "Jo\u00e3o Pedro",
@@ -312,9 +357,9 @@
    1
   ],
   "p": [
-   0.348,
-   0.295,
-   0.357
+   0.354,
+   0.297,
+   0.349
   ],
   "scorers_home": [
    "Tavernier",
@@ -338,9 +383,9 @@
    1
   ],
   "p": [
-   0.517,
-   0.274,
-   0.209
+   0.522,
+   0.272,
+   0.205
   ],
   "scorers_home": [
    "Thiago",
@@ -364,9 +409,9 @@
    1
   ],
   "p": [
-   0.44,
-   0.268,
-   0.292
+   0.404,
+   0.287,
+   0.308
   ],
   "scorers_home": [
    "Awoniyi",
@@ -390,9 +435,9 @@
    1
   ],
   "p": [
-   0.48,
-   0.267,
-   0.253
+   0.492,
+   0.266,
+   0.243
   ],
   "scorers_home": [
    "Gelhardt",
@@ -416,9 +461,9 @@
    1
   ],
   "p": [
-   0.314,
-   0.226,
-   0.46
+   0.283,
+   0.224,
+   0.493
   ],
   "scorers_home": [
    "Haaland",
@@ -468,19 +513,19 @@
    1
   ],
   "p": [
-   0.409,
-   0.3,
-   0.292
+   0.401,
+   0.315,
+   0.284
   ],
   "scorers_home": [
    "Manzambi",
    "N.Jackson",
-   "Buend\u00eda"
+   "Mbaye"
   ],
   "scorers_away": [
-   "Gonzalo",
    "Palacios",
-   "King"
+   "Gonzalo",
+   "Bobb"
   ],
   "actual": null
  },
@@ -490,13 +535,13 @@
   "home": "Liverpool",
   "away": "Arsenal",
   "pred": [
-   1,
-   1
+   0,
+   0
   ],
   "p": [
-   0.307,
-   0.332,
-   0.361
+   0.27,
+   0.331,
+   0.399
   ],
   "scorers_home": [
    "Isak",
@@ -505,8 +550,8 @@
   ],
   "scorers_away": [
    "Havertz",
-   "\u00d8degaard",
-   "Madueke"
+   "Merino",
+   "\u00d8degaard"
   ],
   "actual": null
  },
@@ -520,9 +565,9 @@
    1
   ],
   "p": [
-   0.309,
-   0.283,
-   0.408
+   0.365,
+   0.289,
+   0.346
   ],
   "scorers_home": [
    "Wissa",
