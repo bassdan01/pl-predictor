@@ -227,7 +227,23 @@
    "Tour\u00e9",
    "Willock"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    0,
+    2
+   ],
+   "scorers_home": [],
+   "scorers_away": [
+    {
+     "name": "Barnes",
+     "n": 1
+    },
+    {
+     "name": "Osula",
+     "n": 1
+    }
+   ]
+  }
  },
  "76": {
   "gw": 8,
@@ -253,7 +269,24 @@
    "Anthony",
    "Schade"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    1,
+    1
+   ],
+   "scorers_home": [
+    {
+     "name": "McBurnie",
+     "n": 1
+    }
+   ],
+   "scorers_away": [
+    {
+     "name": "O.Dango",
+     "n": 1
+    }
+   ]
+  }
  },
  "78": {
   "gw": 8,
@@ -279,7 +312,19 @@
    "Gro\u00df",
    "Kostoulas"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    2,
+    0
+   ],
+   "scorers_home": [
+    {
+     "name": "Isak",
+     "n": 1
+    }
+   ],
+   "scorers_away": []
+  }
  },
  "79": {
   "gw": 8,
@@ -305,7 +350,27 @@
    "Evanilson",
    "Kluivert"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    0,
+    3
+   ],
+   "scorers_home": [],
+   "scorers_away": [
+    {
+     "name": "Rayan",
+     "n": 1
+    },
+    {
+     "name": "Tavernier",
+     "n": 1
+    },
+    {
+     "name": "Evanilson",
+     "n": 1
+    }
+   ]
+  }
  },
  "80": {
   "gw": 8,
@@ -343,9 +408,9 @@
    1
   ],
   "p": [
-   0.457,
-   0.247,
-   0.296
+   0.554,
+   0.229,
+   0.217
   ],
   "scorers_home": [
    "Jo\u00e3o Pedro",
@@ -369,14 +434,14 @@
    1
   ],
   "p": [
-   0.345,
-   0.296,
-   0.359
+   0.385,
+   0.294,
+   0.321
   ],
   "scorers_home": [
    "Tavernier",
    "Evanilson",
-   "Kluivert"
+   "Rayan"
   ],
   "scorers_away": [
    "Calvert-Lewin",
@@ -395,14 +460,14 @@
    1
   ],
   "p": [
-   0.514,
+   0.513,
    0.274,
-   0.212
+   0.213
   ],
   "scorers_home": [
    "Thiago",
-   "Anthony",
-   "Schade"
+   "O.Dango",
+   "Anthony"
   ],
   "scorers_away": [
    "Delap",
@@ -421,9 +486,9 @@
    1
   ],
   "p": [
-   0.403,
-   0.287,
-   0.31
+   0.389,
+   0.288,
+   0.323
   ],
   "scorers_home": [
    "Awoniyi",
@@ -433,7 +498,7 @@
   "scorers_away": [
    "Isidor",
    "Brobbey",
-   "E.Le F\u00e9e"
+   "Fofana"
   ],
   "actual": null
  },
@@ -447,13 +512,13 @@
    1
   ],
   "p": [
-   0.483,
-   0.267,
-   0.25
+   0.499,
+   0.258,
+   0.243
   ],
   "scorers_home": [
    "Gelhardt",
-   "Belloumi",
+   "Cho",
    "McBurnie"
   ],
   "scorers_away": [
@@ -473,9 +538,9 @@
    1
   ],
   "p": [
-   0.264,
-   0.223,
-   0.513
+   0.318,
+   0.232,
+   0.45
   ],
   "scorers_home": [
    "Haaland",
@@ -483,8 +548,8 @@
    "O'Reilly"
   ],
   "scorers_away": [
+   "Hinshelwood",
    "Yalcouy\u00e9",
-   "Gro\u00df",
    "Kostoulas"
   ],
   "actual": null
@@ -499,9 +564,9 @@
    1
   ],
   "p": [
-   0.564,
-   0.244,
-   0.192
+   0.562,
+   0.251,
+   0.187
   ],
   "scorers_home": [
    "Solanke",
@@ -511,7 +576,7 @@
   "scorers_away": [
    "Mateta",
    "Lerma",
-   "Nketiah"
+   "Strand Larsen"
   ],
   "actual": null
  },
@@ -525,9 +590,9 @@
    1
   ],
   "p": [
-   0.399,
-   0.315,
-   0.286
+   0.395,
+   0.313,
+   0.291
   ],
   "scorers_home": [
    "Manzambi",
@@ -547,18 +612,18 @@
   "home": "Liverpool",
   "away": "Arsenal",
   "pred": [
-   1,
-   1
+   0,
+   0
   ],
   "p": [
-   0.267,
-   0.329,
-   0.404
+   0.297,
+   0.337,
+   0.366
   ],
   "scorers_home": [
    "Isak",
    "Koumas",
-   "Barcola"
+   "Gakpo"
   ],
   "scorers_away": [
    "Merino",
@@ -577,14 +642,14 @@
    1
   ],
   "p": [
-   0.364,
-   0.287,
-   0.349
+   0.376,
+   0.292,
+   0.332
   ],
   "scorers_home": [
+   "Osula",
    "Wissa",
-   "Tour\u00e9",
-   "Willock"
+   "Tour\u00e9"
   ],
   "scorers_away": [
    "Barry",
