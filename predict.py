@@ -33,7 +33,9 @@ ODDS_WEIGHT = 0.5     # how much the (hidden) market view counts against the mod
 INJURY_LIMIT = 4      # injuries only matter once a team has MORE than this many
 INJURY_STEP = 0.03    # rating drop per extra injured regular
 INJURY_CAP = 0.15
-DC_RHO = -0.10        # Dixon-Coles low-score correction (more realistic 0-0 / 1-1)
+SCORE_STYLE = "expected"  # "expected": score nearest the expected goals (more 2-1s, 2-0s)
+                          # "likely": most probable single score (more 1-0s and 1-1s)
+DC_RHO = -0.05        # light Dixon-Coles low-score correction
 MAX_GOALS = 8
 TOP_SCORERS = 3
 TOP_ASSISTS = 3
@@ -130,6 +132,35 @@ def fit_lambdas(lh, la, target):
             hi = mid
     m = (lo + hi) / 2
     return m, total - m
+
+
+def pick_score(lh, la, ph, pd_, pa):
+    """Predicted score. The result (home win / draw / away win) is whichever the
+    percentages say is most likely, so the score always agrees with them.
+    "expected": round each side's expected goals, then nudge the score to fit that result.
+    "likely":   the most probable single scoreline that fits that result."""
+    top = max((ph, "H"), (pd_, "D"), (pa, "A"))[1]
+    if SCORE_STYLE == "likely":
+        best, best_p = (1, 1), -1.0
+        for i in range(7):
+            for j in range(7):
+                if outcome(i, j) == top and pois(i, lh) * pois(j, la) > best_p:
+                    best, best_p = (i, j), pois(i, lh) * pois(j, la)
+        return best
+    h, a = int(lh + 0.5), int(la + 0.5)
+    if top == "D":
+        h = a = int((lh + la) / 2 + 0.5)
+    elif top == "H" and h <= a:
+        if h >= 1:
+            a = h - 1
+        else:
+            h, a = max(a, 0) + 1, max(a, 0)
+    elif top == "A" and a <= h:
+        if a >= 1:
+            h = a - 1
+        else:
+            a, h = max(h, 0) + 1, max(h, 0)
+    return h, a
 
 
 def outcome(h, a):
@@ -315,6 +346,7 @@ def build(fetch=get, history=None, now=None, odds=None):
             lh, la = fit_lambdas(lh, la, target)
             ph, pd_, pa, (bh, ba) = score_grid(lh, la)
             matched += 1
+        bh, ba = pick_score(lh, la, ph, pd_, pa)
 
         started = f.get("team_h_score") is not None
         sh, ah = likely(h, a)
@@ -380,8 +412,7 @@ def build(fetch=get, history=None, now=None, odds=None):
     res_matches = []
     for r in done:
         a = r["actual"]
-        pick = ["H", "D", "A"][r["p"].index(max(r["p"]))]
-        ok = pick == outcome(*a["score"])
+        ok = outcome(*r["pred"]) == outcome(*a["score"])  # judged on the score we showed
         ex = r["pred"] == a["score"]
         ph_ = [{"name": n, "hit": n in {x["name"] for x in a["scorers_home"]}} for n in r["scorers_home"]]
         pa_ = [{"name": n, "hit": n in {x["name"] for x in a["scorers_away"]}} for n in r["scorers_away"]]
@@ -437,4 +468,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-                     
