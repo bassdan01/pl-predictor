@@ -396,7 +396,14 @@
    "Nmecha",
    "Bogle"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    0,
+    0
+   ],
+   "scorers_home": [],
+   "scorers_away": []
+  }
  },
  "84": {
   "gw": 9,
@@ -408,9 +415,9 @@
    1
   ],
   "p": [
-   0.554,
-   0.229,
-   0.217
+   0.555,
+   0.228,
+   0.218
   ],
   "scorers_home": [
    "Jo\u00e3o Pedro",
@@ -434,9 +441,9 @@
    1
   ],
   "p": [
-   0.385,
-   0.294,
-   0.321
+   0.397,
+   0.309,
+   0.294
   ],
   "scorers_home": [
    "Tavernier",
@@ -460,14 +467,14 @@
    1
   ],
   "p": [
-   0.513,
+   0.515,
    0.274,
-   0.213
+   0.211
   ],
   "scorers_home": [
    "Thiago",
-   "O.Dango",
-   "Anthony"
+   "Anthony",
+   "O.Dango"
   ],
   "scorers_away": [
    "Delap",
@@ -486,9 +493,9 @@
    1
   ],
   "p": [
-   0.389,
-   0.288,
-   0.323
+   0.381,
+   0.307,
+   0.312
   ],
   "scorers_home": [
    "Awoniyi",
@@ -496,8 +503,8 @@
    "Simms"
   ],
   "scorers_away": [
-   "Isidor",
    "Brobbey",
+   "Isidor",
    "Fofana"
   ],
   "actual": null
@@ -512,9 +519,9 @@
    1
   ],
   "p": [
-   0.499,
-   0.258,
-   0.243
+   0.494,
+   0.26,
+   0.246
   ],
   "scorers_home": [
    "Gelhardt",
@@ -538,9 +545,9 @@
    1
   ],
   "p": [
-   0.318,
-   0.232,
-   0.45
+   0.324,
+   0.228,
+   0.448
   ],
   "scorers_home": [
    "Haaland",
@@ -549,8 +556,8 @@
   ],
   "scorers_away": [
    "Hinshelwood",
-   "Yalcouy\u00e9",
-   "Kostoulas"
+   "Kostoulas",
+   "Yalcouy\u00e9"
   ],
   "actual": null
  },
@@ -564,7 +571,7 @@
    1
   ],
   "p": [
-   0.562,
+   0.563,
    0.251,
    0.187
   ],
@@ -612,13 +619,13 @@
   "home": "Liverpool",
   "away": "Arsenal",
   "pred": [
-   0,
-   0
+   1,
+   1
   ],
   "p": [
-   0.297,
-   0.337,
-   0.366
+   0.303,
+   0.333,
+   0.364
   ],
   "scorers_home": [
    "Isak",
@@ -642,8 +649,8 @@
    1
   ],
   "p": [
-   0.376,
-   0.292,
+   0.377,
+   0.291,
    0.332
   ],
   "scorers_home": [
