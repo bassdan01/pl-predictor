@@ -411,13 +411,13 @@
   "home": "Chelsea",
   "away": "Man Utd",
   "pred": [
-   1,
+   2,
    1
   ],
   "p": [
-   0.555,
-   0.228,
-   0.218
+   0.559,
+   0.219,
+   0.222
   ],
   "scorers_home": [
    "Jo\u00e3o Pedro",
@@ -438,12 +438,12 @@
   "away": "Leeds",
   "pred": [
    1,
-   1
+   0
   ],
   "p": [
-   0.397,
-   0.309,
-   0.294
+   0.403,
+   0.296,
+   0.301
   ],
   "scorers_home": [
    "Tavernier",
@@ -463,13 +463,13 @@
   "home": "Brentford",
   "away": "Nott'm Forest",
   "pred": [
-   1,
+   2,
    1
   ],
   "p": [
-   0.515,
-   0.274,
-   0.211
+   0.521,
+   0.262,
+   0.217
   ],
   "scorers_home": [
    "Thiago",
@@ -490,12 +490,12 @@
   "away": "Sunderland",
   "pred": [
    1,
-   1
+   0
   ],
   "p": [
-   0.381,
-   0.307,
-   0.312
+   0.387,
+   0.294,
+   0.319
   ],
   "scorers_home": [
    "Awoniyi",
@@ -515,13 +515,13 @@
   "home": "Hull City",
   "away": "Ipswich Town",
   "pred": [
-   1,
+   2,
    1
   ],
   "p": [
-   0.494,
-   0.26,
-   0.246
+   0.499,
+   0.249,
+   0.252
   ],
   "scorers_home": [
    "Gelhardt",
@@ -542,12 +542,12 @@
   "away": "Brighton",
   "pred": [
    1,
-   1
+   2
   ],
   "p": [
-   0.324,
-   0.228,
-   0.448
+   0.328,
+   0.22,
+   0.452
   ],
   "scorers_home": [
    "Haaland",
@@ -567,13 +567,13 @@
   "home": "Spurs",
   "away": "Crystal Palace",
   "pred": [
-   1,
+   2,
    1
   ],
   "p": [
-   0.563,
-   0.251,
-   0.187
+   0.568,
+   0.24,
+   0.192
   ],
   "scorers_home": [
    "Solanke",
@@ -594,12 +594,12 @@
   "away": "Fulham",
   "pred": [
    1,
-   1
+   0
   ],
   "p": [
-   0.395,
-   0.313,
-   0.291
+   0.402,
+   0.3,
+   0.298
   ],
   "scorers_home": [
    "Manzambi",
@@ -619,13 +619,13 @@
   "home": "Liverpool",
   "away": "Arsenal",
   "pred": [
-   1,
+   0,
    1
   ],
   "p": [
-   0.303,
-   0.333,
-   0.364
+   0.31,
+   0.32,
+   0.37
   ],
   "scorers_home": [
    "Isak",
@@ -646,12 +646,12 @@
   "away": "Everton",
   "pred": [
    1,
-   1
+   0
   ],
   "p": [
-   0.377,
-   0.291,
-   0.332
+   0.383,
+   0.279,
+   0.338
   ],
   "scorers_home": [
    "Osula",
