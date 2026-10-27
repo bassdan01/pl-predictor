@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T12:25:12+00:00",
+ "generated": "2026-10-27T18:27:29+00:00",
  "gameweek": 9,
  "gameweek_name": "Gameweek 9",
  "deadline": "2026-10-31T11:00:00Z",
@@ -39,24 +39,24 @@
    "injured_away": 0,
    "scorers_home": [
     {
-     "name": "Jo\u00e3o Pedro",
-     "prob": 0.339,
-     "doubt": true,
-     "pen": false,
-     "fav": true
-    },
-    {
      "name": "Rogers",
      "prob": 0.196,
      "doubt": false,
      "pen": false,
-     "fav": false
+     "fav": true
     },
     {
      "name": "Neto",
      "prob": 0.168,
      "doubt": false,
      "pen": false,
+     "fav": false
+    },
+    {
+     "name": "Palmer",
+     "prob": 0.131,
+     "doubt": false,
+     "pen": true,
      "fav": false
     }
    ],
