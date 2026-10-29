@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T18:27:57+00:00",
+ "generated": "2026-10-29T00:23:08+00:00",
  "gameweek": 9,
  "gameweek_name": "Gameweek 9",
  "deadline": "2026-10-31T11:00:00Z",
@@ -450,7 +450,7 @@
     {
      "name": "Meunier",
      "prob": 0.13,
-     "doubt": true
+     "doubt": false
     }
    ]
   },
@@ -988,7 +988,7 @@
     {
      "name": "Wirtz",
      "prob": 0.076,
-     "doubt": true
+     "doubt": false
     },
     {
      "name": "Barcola",
