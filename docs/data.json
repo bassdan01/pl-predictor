@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T06:28:40+00:00",
+ "generated": "2026-10-30T12:28:09+00:00",
  "gameweek": 9,
  "gameweek_name": "Gameweek 9",
  "deadline": "2026-10-31T11:00:00Z",
@@ -12,11 +12,11 @@
    "kickoff": "2026-10-31T12:30:00Z",
    "home": "Chelsea",
    "away": "Man Utd",
-   "xg_home": 2.09,
-   "xg_away": 1.27,
-   "p_home": 0.559,
-   "p_draw": 0.219,
-   "p_away": 0.222,
+   "xg_home": 2.06,
+   "xg_away": 1.3,
+   "p_home": 0.543,
+   "p_draw": 0.222,
+   "p_away": 0.235,
    "pred_home": 2,
    "pred_away": 1,
    "actual": null,
@@ -124,11 +124,11 @@
    "kickoff": "2026-10-31T15:00:00Z",
    "home": "Bournemouth",
    "away": "Leeds",
-   "xg_home": 1.25,
-   "xg_away": 1.04,
-   "p_home": 0.403,
-   "p_draw": 0.296,
-   "p_away": 0.301,
+   "xg_home": 1.28,
+   "xg_away": 1.01,
+   "p_home": 0.42,
+   "p_draw": 0.294,
+   "p_away": 0.286,
    "pred_home": 1,
    "pred_away": 0,
    "actual": null,
@@ -236,11 +236,11 @@
    "kickoff": "2026-10-31T15:00:00Z",
    "home": "Brentford",
    "away": "Nott'm Forest",
-   "xg_home": 1.6,
-   "xg_away": 0.94,
-   "p_home": 0.521,
-   "p_draw": 0.262,
-   "p_away": 0.217,
+   "xg_home": 1.53,
+   "xg_away": 1.01,
+   "p_home": 0.487,
+   "p_draw": 0.269,
+   "p_away": 0.244,
    "pred_home": 2,
    "pred_away": 1,
    "actual": null,
@@ -572,13 +572,13 @@
    "kickoff": "2026-10-31T15:00:00Z",
    "home": "Man City",
    "away": "Brighton",
-   "xg_home": 1.73,
-   "xg_away": 2.04,
-   "p_home": 0.328,
+   "xg_home": 2.04,
+   "xg_away": 1.73,
+   "p_home": 0.453,
    "p_draw": 0.22,
-   "p_away": 0.452,
-   "pred_home": 1,
-   "pred_away": 2,
+   "p_away": 0.327,
+   "pred_home": 2,
+   "pred_away": 1,
    "actual": null,
    "finished": false,
    "form_home": {
@@ -684,11 +684,11 @@
    "kickoff": "2026-10-31T17:30:00Z",
    "home": "Spurs",
    "away": "Crystal Palace",
-   "xg_home": 1.81,
-   "xg_away": 0.96,
-   "p_home": 0.568,
-   "p_draw": 0.24,
-   "p_away": 0.192,
+   "xg_home": 1.85,
+   "xg_away": 0.92,
+   "p_home": 0.587,
+   "p_draw": 0.235,
+   "p_away": 0.178,
    "pred_home": 2,
    "pred_away": 1,
    "actual": null,
@@ -796,11 +796,11 @@
    "kickoff": "2026-10-31T20:00:00Z",
    "home": "Aston Villa",
    "away": "Fulham",
-   "xg_home": 1.22,
-   "xg_away": 1.01,
-   "p_home": 0.402,
-   "p_draw": 0.3,
-   "p_away": 0.298,
+   "xg_home": 1.28,
+   "xg_away": 0.95,
+   "p_home": 0.434,
+   "p_draw": 0.297,
+   "p_away": 0.269,
    "pred_home": 1,
    "pred_away": 0,
    "actual": null,
@@ -908,11 +908,11 @@
    "kickoff": "2026-11-01T16:30:00Z",
    "home": "Liverpool",
    "away": "Arsenal",
-   "xg_home": 0.95,
-   "xg_away": 1.07,
-   "p_home": 0.31,
-   "p_draw": 0.32,
-   "p_away": 0.37,
+   "xg_home": 0.94,
+   "xg_away": 1.08,
+   "p_home": 0.305,
+   "p_draw": 0.319,
+   "p_away": 0.375,
    "pred_home": 0,
    "pred_away": 1,
    "actual": null,
@@ -1020,11 +1020,11 @@
    "kickoff": "2026-11-02T20:00:00Z",
    "home": "Newcastle",
    "away": "Everton",
-   "xg_home": 1.33,
-   "xg_away": 1.23,
-   "p_home": 0.383,
-   "p_draw": 0.279,
-   "p_away": 0.338,
+   "xg_home": 1.35,
+   "xg_away": 1.21,
+   "p_home": 0.394,
+   "p_draw": 0.278,
+   "p_away": 0.328,
    "pred_home": 1,
    "pred_away": 0,
    "actual": null,
@@ -1132,19 +1132,13 @@
    "team": "Spurs",
    "opp": "Crystal Palace",
    "venue": "H",
-   "win": 0.568
+   "win": 0.587
   },
   {
    "team": "Chelsea",
    "opp": "Man Utd",
    "venue": "H",
-   "win": 0.559
-  },
-  {
-   "team": "Brentford",
-   "opp": "Nott'm Forest",
-   "venue": "H",
-   "win": 0.521
+   "win": 0.543
   },
   {
    "team": "Hull City",
@@ -1153,22 +1147,34 @@
    "win": 0.499
   },
   {
-   "team": "Brighton",
-   "opp": "Man City",
-   "venue": "A",
-   "win": 0.452
+   "team": "Brentford",
+   "opp": "Nott'm Forest",
+   "venue": "H",
+   "win": 0.487
   },
   {
-   "team": "Bournemouth",
-   "opp": "Leeds",
+   "team": "Man City",
+   "opp": "Brighton",
    "venue": "H",
-   "win": 0.403
+   "win": 0.453
   },
   {
    "team": "Aston Villa",
    "opp": "Fulham",
    "venue": "H",
-   "win": 0.402
+   "win": 0.434
+  },
+  {
+   "team": "Bournemouth",
+   "opp": "Leeds",
+   "venue": "H",
+   "win": 0.42
+  },
+  {
+   "team": "Newcastle",
+   "opp": "Everton",
+   "venue": "H",
+   "win": 0.394
   },
   {
    "team": "Coventry City",
@@ -1177,28 +1183,22 @@
    "win": 0.387
   },
   {
-   "team": "Newcastle",
-   "opp": "Everton",
-   "venue": "H",
-   "win": 0.383
-  },
-  {
    "team": "Arsenal",
    "opp": "Liverpool",
    "venue": "A",
-   "win": 0.37
+   "win": 0.375
   },
   {
    "team": "Everton",
    "opp": "Newcastle",
    "venue": "A",
-   "win": 0.338
+   "win": 0.328
   },
   {
-   "team": "Man City",
-   "opp": "Brighton",
-   "venue": "H",
-   "win": 0.328
+   "team": "Brighton",
+   "opp": "Man City",
+   "venue": "A",
+   "win": 0.327
   },
   {
    "team": "Sunderland",
@@ -1210,19 +1210,19 @@
    "team": "Liverpool",
    "opp": "Arsenal",
    "venue": "H",
-   "win": 0.31
+   "win": 0.305
   },
   {
    "team": "Leeds",
    "opp": "Bournemouth",
    "venue": "A",
-   "win": 0.301
+   "win": 0.286
   },
   {
    "team": "Fulham",
    "opp": "Aston Villa",
    "venue": "A",
-   "win": 0.298
+   "win": 0.269
   },
   {
    "team": "Ipswich Town",
@@ -1231,22 +1231,22 @@
    "win": 0.252
   },
   {
-   "team": "Man Utd",
-   "opp": "Chelsea",
-   "venue": "A",
-   "win": 0.222
-  },
-  {
    "team": "Nott'm Forest",
    "opp": "Brentford",
    "venue": "A",
-   "win": 0.217
+   "win": 0.244
+  },
+  {
+   "team": "Man Utd",
+   "opp": "Chelsea",
+   "venue": "A",
+   "win": 0.235
   },
   {
    "team": "Crystal Palace",
    "opp": "Spurs",
    "venue": "A",
-   "win": 0.192
+   "win": 0.178
   }
  ],
  "results": {
