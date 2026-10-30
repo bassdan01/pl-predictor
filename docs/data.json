@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T12:28:09+00:00",
+ "generated": "2026-10-30T18:27:22+00:00",
  "gameweek": 9,
  "gameweek_name": "Gameweek 9",
  "deadline": "2026-10-31T11:00:00Z",
@@ -12,11 +12,11 @@
    "kickoff": "2026-10-31T12:30:00Z",
    "home": "Chelsea",
    "away": "Man Utd",
-   "xg_home": 2.06,
-   "xg_away": 1.3,
-   "p_home": 0.543,
-   "p_draw": 0.222,
-   "p_away": 0.235,
+   "xg_home": 2.02,
+   "xg_away": 1.32,
+   "p_home": 0.532,
+   "p_draw": 0.225,
+   "p_away": 0.243,
    "pred_home": 2,
    "pred_away": 1,
    "actual": null,
@@ -35,7 +35,7 @@
     "goals_for": 5,
     "goals_against": 9
    },
-   "injured_home": 0,
+   "injured_home": 5,
    "injured_away": 0,
    "scorers_home": [
     {
@@ -63,21 +63,21 @@
    "scorers_away": [
     {
      "name": "Mbeumo",
-     "prob": 0.343,
+     "prob": 0.351,
      "doubt": false,
      "pen": false,
      "fav": true
     },
     {
      "name": "B.Fernandes",
-     "prob": 0.215,
+     "prob": 0.22,
      "doubt": false,
      "pen": true,
      "fav": false
     },
     {
      "name": "Rashford",
-     "prob": 0.18,
+     "prob": 0.185,
      "doubt": true,
      "pen": false,
      "fav": false
@@ -103,17 +103,17 @@
    "assists_away": [
     {
      "name": "B.Fernandes",
-     "prob": 0.163,
+     "prob": 0.167,
      "doubt": false
     },
     {
      "name": "Tielemans",
-     "prob": 0.152,
+     "prob": 0.157,
      "doubt": false
     },
     {
      "name": "Martinez",
-     "prob": 0.143,
+     "prob": 0.146,
      "doubt": false
     }
    ]
@@ -986,12 +986,12 @@
      "doubt": false
     },
     {
-     "name": "Wirtz",
-     "prob": 0.076,
-     "doubt": false
+     "name": "Szoboszlai",
+     "prob": 0.098,
+     "doubt": true
     },
     {
-     "name": "Barcola",
+     "name": "Wirtz",
      "prob": 0.076,
      "doubt": false
     }
@@ -1138,7 +1138,7 @@
    "team": "Chelsea",
    "opp": "Man Utd",
    "venue": "H",
-   "win": 0.543
+   "win": 0.532
   },
   {
    "team": "Hull City",
@@ -1240,7 +1240,7 @@
    "team": "Man Utd",
    "opp": "Chelsea",
    "venue": "A",
-   "win": 0.235
+   "win": 0.243
   },
   {
    "team": "Crystal Palace",
