@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T18:29:58+00:00",
+ "generated": "2026-10-30T00:24:46+00:00",
  "gameweek": 9,
  "gameweek_name": "Gameweek 9",
  "deadline": "2026-10-31T11:00:00Z",
@@ -1049,7 +1049,7 @@
     {
      "name": "Osula",
      "prob": 0.295,
-     "doubt": false,
+     "doubt": true,
      "pen": false,
      "fav": true
     },
@@ -1112,7 +1112,7 @@
     {
      "name": "Grealish",
      "prob": 0.229,
-     "doubt": true
+     "doubt": false
     },
     {
      "name": "Maitland-Niles",
