@@ -429,7 +429,23 @@
    "B.Fernandes",
    "Rashford"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    2,
+    0
+   ],
+   "scorers_home": [
+    {
+     "name": "Rogers",
+     "n": 1
+    },
+    {
+     "name": "Palmer",
+     "n": 1
+    }
+   ],
+   "scorers_away": []
+  }
  },
  "82": {
   "gw": 9,
@@ -455,7 +471,23 @@
    "Nmecha",
    "Bogle"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    2,
+    0
+   ],
+   "scorers_home": [
+    {
+     "name": "Adli",
+     "n": 1
+    },
+    {
+     "name": "Evanilson",
+     "n": 1
+    }
+   ],
+   "scorers_away": []
+  }
  },
  "83": {
   "gw": 9,
@@ -481,7 +513,19 @@
    "Ndoye",
    "Gibbs-White"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    2,
+    0
+   ],
+   "scorers_home": [
+    {
+     "name": "Thiago",
+     "n": 1
+    }
+   ],
+   "scorers_away": []
+  }
  },
  "85": {
   "gw": 9,
@@ -507,7 +551,32 @@
    "Isidor",
    "Fofana"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    3,
+    1
+   ],
+   "scorers_home": [
+    {
+     "name": "Rudoni",
+     "n": 1
+    },
+    {
+     "name": "Sakamoto",
+     "n": 1
+    },
+    {
+     "name": "Awoniyi",
+     "n": 1
+    }
+   ],
+   "scorers_away": [
+    {
+     "name": "E.Le F\u00e9e",
+     "n": 1
+    }
+   ]
+  }
  },
  "86": {
   "gw": 9,
@@ -533,7 +602,32 @@
    "Akpom",
    "Emersonn"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    2,
+    2
+   ],
+   "scorers_home": [
+    {
+     "name": "Iroegbunam",
+     "n": 1
+    },
+    {
+     "name": "McBurnie",
+     "n": 1
+    }
+   ],
+   "scorers_away": [
+    {
+     "name": "Florentino",
+     "n": 1
+    },
+    {
+     "name": "Enciso",
+     "n": 1
+    }
+   ]
+  }
  },
  "88": {
   "gw": 9,
@@ -559,7 +653,19 @@
    "Kostoulas",
    "Yalcouy\u00e9"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    0,
+    1
+   ],
+   "scorers_home": [],
+   "scorers_away": [
+    {
+     "name": "Ayari",
+     "n": 1
+    }
+   ]
+  }
  },
  "90": {
   "gw": 9,
@@ -675,9 +781,9 @@
    0
   ],
   "p": [
-   0.493,
-   0.292,
-   0.215
+   0.488,
+   0.285,
+   0.227
   ],
   "scorers_home": [
    "Barry",
@@ -701,19 +807,19 @@
    0
   ],
   "p": [
-   0.431,
-   0.331,
-   0.238
+   0.363,
+   0.35,
+   0.287
   ],
   "scorers_home": [
    "Calvert-Lewin",
    "Nmecha",
-   "Bogle"
+   "Stach"
   ],
   "scorers_away": [
    "Solanke",
    "Gallagher",
-   "Marmoush"
+   "Kudus"
   ],
   "actual": null
  },
@@ -727,9 +833,9 @@
    1
   ],
   "p": [
-   0.611,
-   0.25,
-   0.139
+   0.621,
+   0.242,
+   0.137
   ],
   "scorers_home": [
    "Merino",
@@ -753,9 +859,9 @@
    1
   ],
   "p": [
-   0.484,
-   0.269,
-   0.247
+   0.487,
+   0.272,
+   0.242
   ],
   "scorers_home": [
    "Palacios",
@@ -779,19 +885,19 @@
    2
   ],
   "p": [
-   0.243,
-   0.247,
+   0.227,
+   0.261,
    0.511
   ],
   "scorers_home": [
+   "Wood",
    "Delap",
-   "Ndoye",
-   "Gibbs-White"
+   "Ndoye"
   ],
   "scorers_away": [
    "Haaland",
-   "Foden",
-   "O'Reilly"
+   "O'Reilly",
+   "Foden"
   ],
   "actual": null
  },
@@ -805,14 +911,14 @@
    1
   ],
   "p": [
-   0.661,
-   0.187,
-   0.152
+   0.618,
+   0.217,
+   0.165
   ],
   "scorers_home": [
    "Hinshelwood",
-   "Kostoulas",
-   "Yalcouy\u00e9"
+   "Yalcouy\u00e9",
+   "Kostoulas"
   ],
   "scorers_away": [
    "Thiago",
@@ -831,14 +937,14 @@
    2
   ],
   "p": [
-   0.181,
-   0.232,
-   0.587
+   0.18,
+   0.23,
+   0.59
   ],
   "scorers_home": [
-   "Mateta",
    "Lerma",
-   "Strand Larsen"
+   "Strand Larsen",
+   "Nketiah"
   ],
   "scorers_away": [
    "Isak",
@@ -857,9 +963,9 @@
    2
   ],
   "p": [
-   0.286,
+   0.28,
    0.228,
-   0.486
+   0.492
   ],
   "scorers_home": [
    "Flemming",
@@ -867,8 +973,8 @@
    "Emersonn"
   ],
   "scorers_away": [
-   "Tavernier",
    "Evanilson",
+   "Tavernier",
    "Rayan"
   ],
   "actual": null
@@ -883,18 +989,18 @@
    2
   ],
   "p": [
-   0.297,
-   0.247,
-   0.456
+   0.236,
+   0.231,
+   0.533
   ],
   "scorers_home": [
    "Brobbey",
    "Isidor",
-   "Fofana"
+   "E.Le F\u00e9e"
   ],
   "scorers_away": [
+   "Barco",
    "Rogers",
-   "Neto",
    "Palmer"
   ],
   "actual": null
@@ -909,9 +1015,9 @@
    1
   ],
   "p": [
-   0.344,
-   0.269,
-   0.387
+   0.317,
+   0.272,
+   0.41
   ],
   "scorers_home": [
    "Mbeumo",
