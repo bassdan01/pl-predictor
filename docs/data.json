@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T12:27:06+00:00",
+ "generated": "2026-11-01T18:24:10+00:00",
  "gameweek": 10,
  "gameweek_name": "Gameweek 10",
  "deadline": "2026-11-06T18:30:00Z",
@@ -271,14 +271,14 @@
     },
     {
      "name": "Havertz",
-     "prob": 0.256,
+     "prob": 0.267,
      "doubt": false,
      "pen": false,
      "fav": false
     },
     {
      "name": "\u00d8degaard",
-     "prob": 0.224,
+     "prob": 0.214,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -310,18 +310,18 @@
    "assists_home": [
     {
      "name": "\u00d8degaard",
-     "prob": 0.216,
+     "prob": 0.213,
      "doubt": false
     },
     {
      "name": "Gy\u00f6keres",
-     "prob": 0.207,
+     "prob": 0.204,
      "doubt": false
     },
     {
-     "name": "Rice",
-     "prob": 0.172,
-     "doubt": true
+     "name": "Madueke",
+     "prob": 0.202,
+     "doubt": false
     }
    ],
    "assists_away": [
@@ -735,21 +735,21 @@
    "scorers_away": [
     {
      "name": "Isak",
-     "prob": 0.547,
+     "prob": 0.522,
      "doubt": false,
      "pen": false,
      "fav": true
     },
     {
      "name": "Koumas",
-     "prob": 0.352,
+     "prob": 0.344,
      "doubt": false,
      "pen": false,
      "fav": false
     },
     {
      "name": "Gakpo",
-     "prob": 0.283,
+     "prob": 0.273,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -775,16 +775,16 @@
    "assists_away": [
     {
      "name": "Gakpo",
-     "prob": 0.34,
+     "prob": 0.331,
      "doubt": false
     },
     {
      "name": "Szoboszlai",
      "prob": 0.229,
-     "doubt": true
+     "doubt": false
     },
     {
-     "name": "Wirtz",
+     "name": "Barcola",
      "prob": 0.182,
      "doubt": false
     }
