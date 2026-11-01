@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T00:26:21+00:00",
+ "generated": "2026-11-01T06:32:46+00:00",
  "gameweek": 10,
  "gameweek_name": "Gameweek 10",
  "deadline": "2026-11-06T18:30:00Z",
@@ -349,10 +349,10 @@
    "home": "Fulham",
    "away": "Newcastle",
    "xg_home": 1.58,
-   "xg_away": 0.99,
-   "p_home": 0.504,
+   "xg_away": 1.0,
+   "p_home": 0.503,
    "p_draw": 0.264,
-   "p_away": 0.232,
+   "p_away": 0.233,
    "pred_home": 2,
    "pred_away": 1,
    "actual": null,
@@ -360,7 +360,7 @@
    "form_home": {
     "form": "DDLWWD",
     "xg_for": 1.4,
-    "xg_against": 1.07,
+    "xg_against": 1.09,
     "goals_for": 5,
     "goals_against": 4
    },
@@ -376,7 +376,7 @@
    "scorers_home": [
     {
      "name": "Gonzalo",
-     "prob": 0.396,
+     "prob": 0.391,
      "doubt": false,
      "pen": true,
      "fav": true
@@ -390,7 +390,7 @@
     },
     {
      "name": "Bobb",
-     "prob": 0.222,
+     "prob": 0.244,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -399,21 +399,21 @@
    "scorers_away": [
     {
      "name": "Osula",
-     "prob": 0.279,
+     "prob": 0.281,
      "doubt": true,
      "pen": false,
      "fav": true
     },
     {
      "name": "Wissa",
-     "prob": 0.238,
+     "prob": 0.24,
      "doubt": false,
      "pen": true,
      "fav": false
     },
     {
      "name": "Tour\u00e9",
-     "prob": 0.19,
+     "prob": 0.191,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -422,7 +422,7 @@
    "assists_home": [
     {
      "name": "Iwobi",
-     "prob": 0.315,
+     "prob": 0.321,
      "doubt": false
     },
     {
@@ -439,17 +439,17 @@
    "assists_away": [
     {
      "name": "J.Murphy",
-     "prob": 0.14,
+     "prob": 0.141,
      "doubt": false
     },
     {
      "name": "Elanga",
-     "prob": 0.126,
+     "prob": 0.127,
      "doubt": false
     },
     {
      "name": "Barnes",
-     "prob": 0.088,
+     "prob": 0.089,
      "doubt": false
     }
    ]
@@ -1022,9 +1022,9 @@
    "away": "Aston Villa",
    "xg_home": 1.32,
    "xg_away": 1.41,
-   "p_home": 0.345,
-   "p_draw": 0.269,
-   "p_away": 0.386,
+   "p_home": 0.344,
+   "p_draw": 0.268,
+   "p_away": 0.387,
    "pred_home": 0,
    "pred_away": 1,
    "actual": null,
@@ -1038,7 +1038,7 @@
    },
    "form_away": {
     "form": "LWDWWD",
-    "xg_for": 1.37,
+    "xg_for": 1.39,
     "xg_against": 1.63,
     "goals_for": 10,
     "goals_against": 8
@@ -1048,7 +1048,7 @@
    "scorers_home": [
     {
      "name": "Mbeumo",
-     "prob": 0.304,
+     "prob": 0.305,
      "doubt": false,
      "pen": false,
      "fav": true
@@ -1078,7 +1078,7 @@
     },
     {
      "name": "N.Jackson",
-     "prob": 0.274,
+     "prob": 0.287,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -1162,7 +1162,7 @@
    "team": "Fulham",
    "opp": "Newcastle",
    "venue": "H",
-   "win": 0.504
+   "win": 0.503
   },
   {
    "team": "Everton",
@@ -1180,13 +1180,13 @@
    "team": "Aston Villa",
    "opp": "Man Utd",
    "venue": "A",
-   "win": 0.386
+   "win": 0.387
   },
   {
    "team": "Man Utd",
    "opp": "Aston Villa",
    "venue": "H",
-   "win": 0.345
+   "win": 0.344
   },
   {
    "team": "Spurs",
@@ -1216,7 +1216,7 @@
    "team": "Newcastle",
    "opp": "Fulham",
    "venue": "A",
-   "win": 0.232
+   "win": 0.233
   },
   {
    "team": "Nott'm Forest",
