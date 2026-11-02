@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T12:43:14+00:00",
+ "generated": "2026-11-02T18:40:29+00:00",
  "gameweek": 10,
  "gameweek_name": "Gameweek 10",
  "deadline": "2026-11-06T18:30:00Z",
@@ -238,7 +238,7 @@
    "away": "Hull City",
    "xg_home": 1.64,
    "xg_away": 0.64,
-   "p_home": 0.609,
+   "p_home": 0.61,
    "p_draw": 0.252,
    "p_away": 0.138,
    "pred_home": 2,
@@ -264,7 +264,7 @@
    "scorers_home": [
     {
      "name": "Havertz",
-     "prob": 0.289,
+     "prob": 0.29,
      "doubt": false,
      "pen": false,
      "fav": true
@@ -688,7 +688,7 @@
    "xg_away": 1.85,
    "p_home": 0.158,
    "p_draw": 0.233,
-   "p_away": 0.61,
+   "p_away": 0.609,
    "pred_home": 1,
    "pred_away": 2,
    "actual": null,
@@ -703,7 +703,7 @@
    "form_away": {
     "form": "DWLWWL",
     "xg_for": 1.3,
-    "xg_against": 0.98,
+    "xg_against": 0.99,
     "goals_for": 5,
     "goals_against": 5
    },
@@ -712,7 +712,7 @@
    "scorers_home": [
     {
      "name": "Lerma",
-     "prob": 0.277,
+     "prob": 0.278,
      "doubt": false,
      "pen": false,
      "fav": true
@@ -1135,15 +1135,15 @@
    "win": 0.626
   },
   {
-   "team": "Liverpool",
-   "opp": "Crystal Palace",
-   "venue": "A",
-   "win": 0.61
-  },
-  {
    "team": "Arsenal",
    "opp": "Hull City",
    "venue": "H",
+   "win": 0.61
+  },
+  {
+   "team": "Liverpool",
+   "opp": "Crystal Palace",
+   "venue": "A",
    "win": 0.609
   },
   {
