@@ -833,9 +833,9 @@
    0
   ],
   "p": [
-   0.522,
-   0.276,
-   0.202
+   0.527,
+   0.274,
+   0.199
   ],
   "scorers_home": [
    "Barry",
@@ -911,9 +911,9 @@
    1
   ],
   "p": [
-   0.517,
-   0.262,
-   0.22
+   0.523,
+   0.261,
+   0.216
   ],
   "scorers_home": [
    "Gonzalo",
@@ -922,8 +922,8 @@
   ],
   "scorers_away": [
    "Wissa",
-   "Elanga",
-   "Osula"
+   "Osula",
+   "Elanga"
   ],
   "actual": null
  },

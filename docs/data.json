@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T00:28:55+00:00",
+ "generated": "2026-11-03T06:44:46+00:00",
  "gameweek": 10,
  "gameweek_name": "Gameweek 10",
  "deadline": "2026-11-06T18:30:00Z",
@@ -12,19 +12,19 @@
    "kickoff": "2026-11-06T20:00:00Z",
    "home": "Everton",
    "away": "Coventry City",
-   "xg_home": 1.49,
+   "xg_home": 1.5,
    "xg_away": 0.82,
-   "p_home": 0.522,
-   "p_draw": 0.276,
-   "p_away": 0.202,
+   "p_home": 0.527,
+   "p_draw": 0.274,
+   "p_away": 0.199,
    "pred_home": 1,
    "pred_away": 0,
    "actual": null,
    "finished": false,
    "form_home": {
     "form": "DWDLLW",
-    "xg_for": 1.4,
-    "xg_against": 1.39,
+    "xg_for": 1.43,
+    "xg_against": 1.36,
     "goals_for": 4,
     "goals_against": 6
    },
@@ -63,21 +63,21 @@
    "scorers_away": [
     {
      "name": "Awoniyi",
-     "prob": 0.224,
+     "prob": 0.222,
      "doubt": false,
      "pen": false,
      "fav": true
     },
     {
      "name": "Rudoni",
-     "prob": 0.189,
+     "prob": 0.188,
      "doubt": false,
      "pen": true,
      "fav": false
     },
     {
      "name": "Simms",
-     "prob": 0.163,
+     "prob": 0.162,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -96,24 +96,24 @@
     },
     {
      "name": "Dewsbury-Hall",
-     "prob": 0.137,
+     "prob": 0.138,
      "doubt": false
     }
    ],
    "assists_away": [
     {
      "name": "Rudoni",
-     "prob": 0.142,
+     "prob": 0.141,
      "doubt": false
     },
     {
      "name": "Torp",
-     "prob": 0.115,
+     "prob": 0.114,
      "doubt": false
     },
     {
      "name": "Mason-Clark",
-     "prob": 0.083,
+     "prob": 0.082,
      "doubt": false
     }
    ]
@@ -348,11 +348,11 @@
    "kickoff": "2026-11-07T15:00:00Z",
    "home": "Fulham",
    "away": "Newcastle",
-   "xg_home": 1.6,
-   "xg_away": 0.96,
-   "p_home": 0.517,
-   "p_draw": 0.262,
-   "p_away": 0.22,
+   "xg_home": 1.61,
+   "xg_away": 0.95,
+   "p_home": 0.523,
+   "p_draw": 0.261,
+   "p_away": 0.216,
    "pred_home": 2,
    "pred_away": 1,
    "actual": null,
@@ -366,8 +366,8 @@
    },
    "form_away": {
     "form": "LWLLWL",
-    "xg_for": 1.26,
-    "xg_against": 1.76,
+    "xg_for": 1.23,
+    "xg_against": 1.79,
     "goals_for": 6,
     "goals_against": 11
    },
@@ -376,21 +376,21 @@
    "scorers_home": [
     {
      "name": "Gonzalo",
-     "prob": 0.399,
+     "prob": 0.401,
      "doubt": false,
      "pen": true,
      "fav": true
     },
     {
      "name": "Palacios",
-     "prob": 0.255,
+     "prob": 0.256,
      "doubt": false,
      "pen": false,
      "fav": false
     },
     {
      "name": "Bobb",
-     "prob": 0.249,
+     "prob": 0.25,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -399,21 +399,21 @@
    "scorers_away": [
     {
      "name": "Wissa",
-     "prob": 0.291,
+     "prob": 0.292,
      "doubt": false,
      "pen": true,
      "fav": true
     },
     {
-     "name": "Elanga",
-     "prob": 0.274,
+     "name": "Osula",
+     "prob": 0.194,
      "doubt": false,
      "pen": false,
      "fav": false
     },
     {
-     "name": "Osula",
-     "prob": 0.194,
+     "name": "Elanga",
+     "prob": 0.191,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -422,17 +422,17 @@
    "assists_home": [
     {
      "name": "Iwobi",
-     "prob": 0.328,
+     "prob": 0.33,
      "doubt": false
     },
     {
      "name": "Bobb",
-     "prob": 0.187,
+     "prob": 0.188,
      "doubt": false
     },
     {
      "name": "King",
-     "prob": 0.174,
+     "prob": 0.175,
      "doubt": false
     }
    ],
@@ -1156,13 +1156,13 @@
    "team": "Everton",
    "opp": "Coventry City",
    "venue": "H",
-   "win": 0.522
+   "win": 0.527
   },
   {
    "team": "Fulham",
    "opp": "Newcastle",
    "venue": "H",
-   "win": 0.517
+   "win": 0.523
   },
   {
    "team": "Man City",
@@ -1222,13 +1222,13 @@
    "team": "Newcastle",
    "opp": "Fulham",
    "venue": "A",
-   "win": 0.22
+   "win": 0.216
   },
   {
    "team": "Coventry City",
    "opp": "Everton",
    "venue": "A",
-   "win": 0.202
+   "win": 0.199
   },
   {
    "team": "Brentford",
