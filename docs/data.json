@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T18:37:03+00:00",
+ "generated": "2026-11-06T00:33:20+00:00",
  "gameweek": 10,
  "gameweek_name": "Gameweek 10",
  "deadline": "2026-11-06T18:30:00Z",
@@ -720,7 +720,7 @@
     {
      "name": "Strand Larsen",
      "prob": 0.174,
-     "doubt": true,
+     "doubt": false,
      "pen": false,
      "fav": false
     },
@@ -769,7 +769,7 @@
     {
      "name": "Strand Larsen",
      "prob": 0.078,
-     "doubt": true
+     "doubt": false
     }
    ],
    "assists_away": [
