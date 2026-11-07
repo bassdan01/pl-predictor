@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T06:35:54+00:00",
+ "generated": "2026-11-07T12:28:50+00:00",
  "gameweek": 11,
  "gameweek_name": "Gameweek 11",
  "deadline": "2026-11-21T11:00:00Z",
@@ -400,7 +400,7 @@
     {
      "name": "Calvert-Lewin",
      "prob": 0.318,
-     "doubt": true,
+     "doubt": false,
      "pen": true,
      "fav": true
     },
