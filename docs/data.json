@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T00:29:06+00:00",
+ "generated": "2026-11-07T06:35:54+00:00",
  "gameweek": 11,
  "gameweek_name": "Gameweek 11",
  "deadline": "2026-11-21T11:00:00Z",
@@ -460,19 +460,19 @@
    "kickoff": "2026-11-21T15:00:00Z",
    "home": "Coventry City",
    "away": "Crystal Palace",
-   "xg_home": 2.0,
-   "xg_away": 1.2,
-   "p_home": 0.554,
-   "p_draw": 0.225,
-   "p_away": 0.221,
+   "xg_home": 1.98,
+   "xg_away": 1.17,
+   "p_home": 0.557,
+   "p_draw": 0.227,
+   "p_away": 0.216,
    "pred_home": 2,
    "pred_away": 1,
    "actual": null,
    "finished": false,
    "form_home": {
     "form": "WWLLWL",
-    "xg_for": 0.92,
-    "xg_against": 1.41,
+    "xg_for": 0.89,
+    "xg_against": 1.27,
     "goals_for": 10,
     "goals_against": 9
    },
@@ -488,14 +488,14 @@
    "scorers_home": [
     {
      "name": "Awoniyi",
-     "prob": 0.384,
+     "prob": 0.364,
      "doubt": false,
      "pen": false,
      "fav": true
     },
     {
      "name": "Rudoni",
-     "prob": 0.301,
+     "prob": 0.294,
      "doubt": false,
      "pen": true,
      "fav": false
@@ -511,21 +511,21 @@
    "scorers_away": [
     {
      "name": "Lerma",
-     "prob": 0.449,
+     "prob": 0.439,
      "doubt": false,
      "pen": false,
      "fav": true
     },
     {
      "name": "Strand Larsen",
-     "prob": 0.294,
+     "prob": 0.287,
      "doubt": false,
      "pen": false,
      "fav": false
     },
     {
      "name": "Nketiah",
-     "prob": 0.205,
+     "prob": 0.2,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -534,7 +534,7 @@
    "assists_home": [
     {
      "name": "Rudoni",
-     "prob": 0.233,
+     "prob": 0.208,
      "doubt": false
     },
     {
@@ -551,17 +551,17 @@
    "assists_away": [
     {
      "name": "Wharton",
-     "prob": 0.153,
+     "prob": 0.149,
      "doubt": false
     },
     {
      "name": "Yeremy",
-     "prob": 0.138,
+     "prob": 0.134,
      "doubt": false
     },
     {
      "name": "Strand Larsen",
-     "prob": 0.138,
+     "prob": 0.134,
      "doubt": false
     }
    ]
@@ -1020,11 +1020,11 @@
    "kickoff": "2026-11-23T20:00:00Z",
    "home": "Brentford",
    "away": "Everton",
-   "xg_home": 1.52,
-   "xg_away": 1.02,
-   "p_home": 0.482,
-   "p_draw": 0.27,
-   "p_away": 0.248,
+   "xg_home": 1.5,
+   "xg_away": 0.99,
+   "p_home": 0.485,
+   "p_draw": 0.272,
+   "p_away": 0.243,
    "pred_home": 2,
    "pred_away": 1,
    "actual": null,
@@ -1038,8 +1038,8 @@
    },
    "form_away": {
     "form": "WDLLWW",
-    "xg_for": 1.62,
-    "xg_against": 1.48,
+    "xg_for": 1.48,
+    "xg_against": 1.45,
     "goals_for": 7,
     "goals_against": 7
    },
@@ -1048,21 +1048,21 @@
    "scorers_home": [
     {
      "name": "Thiago",
-     "prob": 0.243,
+     "prob": 0.241,
      "doubt": false,
      "pen": true,
      "fav": true
     },
     {
      "name": "Anthony",
-     "prob": 0.23,
+     "prob": 0.228,
      "doubt": false,
      "pen": false,
      "fav": false
     },
     {
      "name": "O.Dango",
-     "prob": 0.196,
+     "prob": 0.194,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -1071,7 +1071,7 @@
    "scorers_away": [
     {
      "name": "Barry",
-     "prob": 0.48,
+     "prob": 0.437,
      "doubt": false,
      "pen": true,
      "fav": true
@@ -1085,7 +1085,7 @@
     },
     {
      "name": "Dewsbury-Hall",
-     "prob": 0.14,
+     "prob": 0.133,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -1094,24 +1094,24 @@
    "assists_home": [
     {
      "name": "Damsgaard",
-     "prob": 0.164,
+     "prob": 0.162,
      "doubt": false
     },
     {
      "name": "Schuster",
-     "prob": 0.128,
+     "prob": 0.127,
      "doubt": false
     },
     {
      "name": "Thiago",
-     "prob": 0.116,
+     "prob": 0.115,
      "doubt": false
     }
    ],
    "assists_away": [
     {
      "name": "Dibling",
-     "prob": 0.227,
+     "prob": 0.285,
      "doubt": false
     },
     {
@@ -1165,16 +1165,16 @@
    "win": 0.58
   },
   {
+   "team": "Coventry City",
+   "opp": "Crystal Palace",
+   "venue": "H",
+   "win": 0.557
+  },
+  {
    "team": "Brighton",
    "opp": "Hull City",
    "venue": "A",
    "win": 0.555
-  },
-  {
-   "team": "Coventry City",
-   "opp": "Crystal Palace",
-   "venue": "H",
-   "win": 0.554
   },
   {
    "team": "Chelsea",
@@ -1186,25 +1186,25 @@
    "team": "Brentford",
    "opp": "Everton",
    "venue": "H",
-   "win": 0.482
+   "win": 0.485
   },
   {
    "team": "Everton",
    "opp": "Brentford",
    "venue": "A",
-   "win": 0.248
-  },
-  {
-   "team": "Crystal Palace",
-   "opp": "Coventry City",
-   "venue": "A",
-   "win": 0.221
+   "win": 0.243
   },
   {
    "team": "Leeds",
    "opp": "Chelsea",
    "venue": "A",
    "win": 0.217
+  },
+  {
+   "team": "Crystal Palace",
+   "opp": "Coventry City",
+   "venue": "A",
+   "win": 0.216
   },
   {
    "team": "Hull City",
