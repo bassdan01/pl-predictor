@@ -894,7 +894,19 @@
    "Solanke",
    "Kudus"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    1,
+    0
+   ],
+   "scorers_home": [
+    {
+     "name": "Okafor",
+     "n": 1
+    }
+   ],
+   "scorers_away": []
+  }
  },
  "91": {
   "gw": 10,
@@ -920,7 +932,19 @@
    "Cho",
    "McBurnie"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    1,
+    0
+   ],
+   "scorers_home": [
+    {
+     "name": "\u00d8degaard",
+     "n": 1
+    }
+   ],
+   "scorers_away": []
+  }
  },
  "95": {
   "gw": 10,
@@ -946,7 +970,24 @@
    "Osula",
    "Elanga"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    1,
+    1
+   ],
+   "scorers_home": [
+    {
+     "name": "Muniz",
+     "n": 1
+    }
+   ],
+   "scorers_away": [
+    {
+     "name": "J.Murphy",
+     "n": 1
+    }
+   ]
+  }
  },
  "99": {
   "gw": 10,
@@ -1114,18 +1155,18 @@
    1
   ],
   "p": [
-   0.58,
-   0.237,
-   0.183
+   0.591,
+   0.235,
+   0.174
   ],
   "scorers_home": [
    "Haaland",
-   "Foden",
-   "O'Reilly"
+   "O'Reilly",
+   "Foden"
   ],
   "scorers_away": [
    "Gonzalo",
-   "Palacios",
+   "Muniz",
    "Bobb"
   ],
   "actual": null
@@ -1140,9 +1181,9 @@
    1
   ],
   "p": [
-   0.588,
-   0.229,
-   0.183
+   0.583,
+   0.231,
+   0.187
   ],
   "scorers_home": [
    "Manzambi",
@@ -1166,9 +1207,9 @@
    1
   ],
   "p": [
-   0.606,
-   0.242,
-   0.152
+   0.613,
+   0.238,
+   0.148
   ],
   "scorers_home": [
    "Evanilson",
@@ -1188,13 +1229,13 @@
   "home": "Chelsea",
   "away": "Leeds",
   "pred": [
-   2,
-   1
+   1,
+   0
   ],
   "p": [
-   0.519,
-   0.263,
-   0.217
+   0.476,
+   0.277,
+   0.247
   ],
   "scorers_home": [
    "Barco",
@@ -1203,8 +1244,8 @@
   ],
   "scorers_away": [
    "Calvert-Lewin",
-   "Nmecha",
-   "Stach"
+   "Longstaff",
+   "Nmecha"
   ],
   "actual": null
  },
@@ -1218,9 +1259,9 @@
    1
   ],
   "p": [
-   0.557,
-   0.227,
-   0.216
+   0.565,
+   0.223,
+   0.212
   ],
   "scorers_home": [
    "Awoniyi",
@@ -1244,9 +1285,9 @@
    1
   ],
   "p": [
-   0.593,
-   0.229,
-   0.178
+   0.532,
+   0.244,
+   0.224
   ],
   "scorers_home": [
    "Gallagher",
@@ -1270,14 +1311,14 @@
    2
   ],
   "p": [
-   0.166,
-   0.243,
-   0.591
+   0.165,
+   0.269,
+   0.566
   ],
   "scorers_home": [
    "Wissa",
-   "Osula",
-   "Elanga"
+   "Elanga",
+   "Barnes"
   ],
   "scorers_away": [
    "Havertz",
@@ -1296,9 +1337,9 @@
    2
   ],
   "p": [
-   0.195,
-   0.25,
-   0.555
+   0.178,
+   0.254,
+   0.568
   ],
   "scorers_home": [
    "Gelhardt",
@@ -1322,9 +1363,9 @@
    1
   ],
   "p": [
-   0.629,
-   0.235,
-   0.135
+   0.639,
+   0.231,
+   0.13
   ],
   "scorers_home": [
    "Isak",
@@ -1348,9 +1389,9 @@
    1
   ],
   "p": [
-   0.485,
-   0.272,
-   0.243
+   0.49,
+   0.269,
+   0.241
   ],
   "scorers_home": [
    "Thiago",
