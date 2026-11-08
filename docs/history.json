@@ -1060,7 +1060,23 @@
    "Anthony",
    "O.Dango"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    2,
+    0
+   ],
+   "scorers_home": [
+    {
+     "name": "Gro\u00df",
+     "n": 1
+    },
+    {
+     "name": "Gomez",
+     "n": 1
+    }
+   ],
+   "scorers_away": []
+  }
  },
  "93": {
   "gw": 10,
@@ -1086,7 +1102,32 @@
    "Koumas",
    "Gakpo"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    1,
+    3
+   ],
+   "scorers_home": [
+    {
+     "name": "Nketiah",
+     "n": 1
+    }
+   ],
+   "scorers_away": [
+    {
+     "name": "Wirtz",
+     "n": 1
+    },
+    {
+     "name": "Mac Allister",
+     "n": 1
+    },
+    {
+     "name": "Isak",
+     "n": 1
+    }
+   ]
+  }
  },
  "96": {
   "gw": 10,
@@ -1112,7 +1153,24 @@
    "Tavernier",
    "Rayan"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    1,
+    2
+   ],
+   "scorers_home": [
+    {
+     "name": "Clarke",
+     "n": 1
+    }
+   ],
+   "scorers_away": [
+    {
+     "name": "Evanilson",
+     "n": 1
+    }
+   ]
+  }
  },
  "100": {
   "gw": 10,
@@ -1138,7 +1196,19 @@
    "Rogers",
    "Palmer"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    1,
+    0
+   ],
+   "scorers_home": [
+    {
+     "name": "E.Le F\u00e9e",
+     "n": 1
+    }
+   ],
+   "scorers_away": []
+  }
  },
  "98": {
   "gw": 10,
@@ -1176,7 +1246,7 @@
    1
   ],
   "p": [
-   0.55,
+   0.551,
    0.24,
    0.209
   ],
@@ -1202,13 +1272,13 @@
    1
   ],
   "p": [
-   0.599,
-   0.229,
-   0.172
+   0.533,
+   0.255,
+   0.212
   ],
   "scorers_home": [
-   "Manzambi",
    "N.Jackson",
+   "Manzambi",
    "McGinn"
   ],
   "scorers_away": [
@@ -1228,9 +1298,9 @@
    1
   ],
   "p": [
-   0.578,
-   0.245,
-   0.177
+   0.575,
+   0.246,
+   0.179
   ],
   "scorers_home": [
    "Evanilson",
@@ -1254,9 +1324,9 @@
    0
   ],
   "p": [
-   0.479,
-   0.277,
-   0.244
+   0.405,
+   0.292,
+   0.303
   ],
   "scorers_home": [
    "Barco",
@@ -1280,9 +1350,9 @@
    1
   ],
   "p": [
-   0.564,
-   0.224,
-   0.212
+   0.549,
+   0.218,
+   0.232
   ],
   "scorers_home": [
    "Awoniyi",
@@ -1290,9 +1360,9 @@
    "Simms"
   ],
   "scorers_away": [
+   "Nketiah",
    "Lerma",
-   "Strand Larsen",
-   "Nketiah"
+   "Strand Larsen"
   ],
   "actual": null
  },
@@ -1306,9 +1376,9 @@
    1
   ],
   "p": [
-   0.532,
+   0.54,
    0.246,
-   0.222
+   0.214
   ],
   "scorers_home": [
    "Gallagher",
@@ -1318,7 +1388,7 @@
   "scorers_away": [
    "Flemming",
    "Akpom",
-   "Emersonn"
+   "Clarke"
   ],
   "actual": null
  },
@@ -1332,9 +1402,9 @@
    2
   ],
   "p": [
-   0.166,
-   0.268,
-   0.566
+   0.162,
+   0.266,
+   0.572
   ],
   "scorers_home": [
    "Wissa",
@@ -1358,9 +1428,9 @@
    2
   ],
   "p": [
-   0.181,
-   0.255,
-   0.564
+   0.158,
+   0.248,
+   0.594
   ],
   "scorers_home": [
    "Gelhardt",
@@ -1369,8 +1439,8 @@
   ],
   "scorers_away": [
    "Hinshelwood",
-   "Yalcouy\u00e9",
-   "Kostoulas"
+   "Kostoulas",
+   "Ayari"
   ],
   "actual": null
  },
@@ -1384,19 +1454,19 @@
    1
   ],
   "p": [
-   0.638,
-   0.232,
-   0.13
+   0.646,
+   0.216,
+   0.138
   ],
   "scorers_home": [
    "Isak",
    "Koumas",
-   "Gakpo"
+   "Barcola"
   ],
   "scorers_away": [
    "Mbeumo",
-   "Dorgu",
-   "B.Fernandes"
+   "B.Fernandes",
+   "Amad"
   ],
   "actual": null
  },
@@ -1406,17 +1476,17 @@
   "home": "Brentford",
   "away": "Everton",
   "pred": [
-   2,
-   1
+   1,
+   0
   ],
   "p": [
-   0.496,
-   0.269,
-   0.236
+   0.456,
+   0.282,
+   0.262
   ],
   "scorers_home": [
-   "Thiago",
    "Anthony",
+   "Schade",
    "O.Dango"
   ],
   "scorers_away": [
