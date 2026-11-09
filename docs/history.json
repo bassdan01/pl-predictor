@@ -1234,7 +1234,48 @@
    "N.Jackson",
    "McGinn"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    4,
+    4
+   ],
+   "scorers_home": [
+    {
+     "name": "Tielemans",
+     "n": 1
+    },
+    {
+     "name": "Dorgu",
+     "n": 1
+    },
+    {
+     "name": "B.Fernandes",
+     "n": 1
+    },
+    {
+     "name": "Zirkzee",
+     "n": 1
+    }
+   ],
+   "scorers_away": [
+    {
+     "name": "McGinn",
+     "n": 1
+    },
+    {
+     "name": "Alysson",
+     "n": 1
+    },
+    {
+     "name": "N.Jackson",
+     "n": 1
+    },
+    {
+     "name": "Goretzka",
+     "n": 1
+    }
+   ]
+  }
  },
  "108": {
   "gw": 11,
@@ -1246,9 +1287,9 @@
    1
   ],
   "p": [
-   0.551,
-   0.24,
-   0.209
+   0.542,
+   0.245,
+   0.212
   ],
   "scorers_home": [
    "Haaland",
@@ -1272,14 +1313,14 @@
    1
   ],
   "p": [
-   0.533,
-   0.255,
-   0.212
+   0.55,
+   0.228,
+   0.223
   ],
   "scorers_home": [
    "N.Jackson",
-   "Manzambi",
-   "McGinn"
+   "McGinn",
+   "Manzambi"
   ],
   "scorers_away": [
    "Brobbey",
@@ -1298,9 +1339,9 @@
    1
   ],
   "p": [
-   0.575,
-   0.246,
-   0.179
+   0.571,
+   0.248,
+   0.181
   ],
   "scorers_home": [
    "Evanilson",
@@ -1324,8 +1365,8 @@
    0
   ],
   "p": [
-   0.405,
-   0.292,
+   0.402,
+   0.295,
    0.303
   ],
   "scorers_home": [
@@ -1350,9 +1391,9 @@
    1
   ],
   "p": [
-   0.549,
-   0.218,
-   0.232
+   0.542,
+   0.22,
+   0.238
   ],
   "scorers_home": [
    "Awoniyi",
@@ -1376,8 +1417,8 @@
    1
   ],
   "p": [
-   0.54,
-   0.246,
+   0.538,
+   0.248,
    0.214
   ],
   "scorers_home": [
@@ -1403,8 +1444,8 @@
   ],
   "p": [
    0.162,
-   0.266,
-   0.572
+   0.268,
+   0.571
   ],
   "scorers_home": [
    "Wissa",
@@ -1428,9 +1469,9 @@
    2
   ],
   "p": [
-   0.158,
+   0.156,
    0.248,
-   0.594
+   0.596
   ],
   "scorers_home": [
    "Gelhardt",
@@ -1454,9 +1495,9 @@
    1
   ],
   "p": [
-   0.646,
-   0.216,
-   0.138
+   0.649,
+   0.194,
+   0.157
   ],
   "scorers_home": [
    "Isak",
@@ -1464,9 +1505,9 @@
    "Barcola"
   ],
   "scorers_away": [
-   "Mbeumo",
-   "B.Fernandes",
-   "Amad"
+   "Mount",
+   "Dorgu",
+   "Mbeumo"
   ],
   "actual": null
  },
@@ -1480,9 +1521,9 @@
    0
   ],
   "p": [
-   0.456,
-   0.282,
-   0.262
+   0.451,
+   0.285,
+   0.263
   ],
   "scorers_home": [
    "Anthony",
