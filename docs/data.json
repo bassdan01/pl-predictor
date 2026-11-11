@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T12:46:56+00:00",
+ "generated": "2026-11-11T18:39:35+00:00",
  "gameweek": 11,
  "gameweek_name": "Gameweek 11",
  "deadline": "2026-11-21T11:00:00Z",
@@ -526,7 +526,7 @@
     {
      "name": "Strand Larsen",
      "prob": 0.277,
-     "doubt": false,
+     "doubt": true,
      "pen": false,
      "fav": false
     }
@@ -562,7 +562,7 @@
     {
      "name": "Strand Larsen",
      "prob": 0.125,
-     "doubt": false
+     "doubt": true
     }
    ]
   },
