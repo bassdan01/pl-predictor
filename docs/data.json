@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T12:48:01+00:00",
+ "generated": "2026-11-12T18:38:33+00:00",
  "gameweek": 11,
  "gameweek_name": "Gameweek 11",
  "deadline": "2026-11-21T11:00:00Z",
@@ -167,7 +167,7 @@
     {
      "name": "Manzambi",
      "prob": 0.274,
-     "doubt": false,
+     "doubt": true,
      "pen": false,
      "fav": false
     }
@@ -204,7 +204,7 @@
     {
      "name": "Manzambi",
      "prob": 0.146,
-     "doubt": false
+     "doubt": true
     },
     {
      "name": "McGinn",
