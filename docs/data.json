@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T06:50:58+00:00",
+ "generated": "2026-11-13T12:46:37+00:00",
  "gameweek": 11,
  "gameweek_name": "Gameweek 11",
  "deadline": "2026-11-21T11:00:00Z",
@@ -161,7 +161,7 @@
      "name": "McGinn",
      "prob": 0.339,
      "doubt": false,
-     "pen": false,
+     "pen": true,
      "fav": false
     },
     {
@@ -191,7 +191,7 @@
      "name": "E.Le F\u00e9e",
      "prob": 0.323,
      "doubt": false,
-     "pen": false,
+     "pen": true,
      "fav": false
     }
    ],
