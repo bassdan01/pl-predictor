@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T06:38:59+00:00",
+ "generated": "2026-11-14T12:28:37+00:00",
  "gameweek": 11,
  "gameweek_name": "Gameweek 11",
  "deadline": "2026-11-21T11:00:00Z",
@@ -967,7 +967,7 @@
     {
      "name": "Dorgu",
      "prob": 0.259,
-     "doubt": false,
+     "doubt": true,
      "pen": false,
      "fav": false
     },
