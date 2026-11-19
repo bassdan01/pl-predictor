@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T04:59:18+00:00",
+ "generated": "2026-11-19T14:53:38+00:00",
  "gameweek": 11,
  "gameweek_name": "Gameweek 11",
  "deadline": "2026-11-21T11:00:00Z",
@@ -174,24 +174,24 @@
    ],
    "scorers_away": [
     {
-     "name": "Brobbey",
-     "prob": 0.599,
-     "doubt": true,
-     "pen": false,
-     "fav": true
-    },
-    {
      "name": "Isidor",
      "prob": 0.475,
      "doubt": false,
      "pen": false,
-     "fav": false
+     "fav": true
     },
     {
      "name": "E.Le F\u00e9e",
      "prob": 0.323,
      "doubt": false,
      "pen": true,
+     "fav": false
+    },
+    {
+     "name": "Fofana",
+     "prob": 0.306,
+     "doubt": false,
+     "pen": false,
      "fav": false
     }
    ],
@@ -219,13 +219,13 @@
      "doubt": false
     },
     {
-     "name": "Xhaka",
-     "prob": 0.186,
-     "doubt": true
-    },
-    {
      "name": "E.Le F\u00e9e",
      "prob": 0.185,
+     "doubt": false
+    },
+    {
+     "name": "Meunier",
+     "prob": 0.152,
      "doubt": false
     }
    ]
