@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T14:35:02+00:00",
+ "generated": "2026-11-20T23:28:54+00:00",
  "gameweek": 11,
  "gameweek_name": "Gameweek 11",
  "deadline": "2026-11-21T11:00:00Z",
@@ -167,7 +167,7 @@
     {
      "name": "Manzambi",
      "prob": 0.274,
-     "doubt": true,
+     "doubt": false,
      "pen": false,
      "fav": false
     }
@@ -204,7 +204,7 @@
     {
      "name": "Manzambi",
      "prob": 0.146,
-     "doubt": true
+     "doubt": false
     },
     {
      "name": "McGinn",
@@ -650,13 +650,13 @@
      "doubt": false
     },
     {
-     "name": "Fernandes",
-     "prob": 0.195,
+     "name": "S\u00e1vio",
+     "prob": 0.238,
      "doubt": false
     },
     {
-     "name": "Tonali",
-     "prob": 0.16,
+     "name": "Fernandes",
+     "prob": 0.195,
      "doubt": false
     }
    ],
@@ -881,7 +881,7 @@
     {
      "name": "Belloumi",
      "prob": 0.077,
-     "doubt": true
+     "doubt": false
     }
    ],
    "assists_away": [
