@@ -1301,7 +1301,24 @@
    "Muniz",
    "Bobb"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    1,
+    1
+   ],
+   "scorers_home": [
+    {
+     "name": "Anderson",
+     "n": 1
+    }
+   ],
+   "scorers_away": [
+    {
+     "name": "Muniz",
+     "n": 1
+    }
+   ]
+  }
  },
  "101": {
   "gw": 11,
@@ -1327,7 +1344,14 @@
    "E.Le F\u00e9e",
    "Fofana"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    0,
+    0
+   ],
+   "scorers_home": [],
+   "scorers_away": []
+  }
  },
  "102": {
   "gw": 11,
@@ -1353,7 +1377,23 @@
    "Delap",
    "Igor Jesus"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    2,
+    0
+   ],
+   "scorers_home": [
+    {
+     "name": "Kluivert",
+     "n": 1
+    },
+    {
+     "name": "Evanilson",
+     "n": 1
+    }
+   ],
+   "scorers_away": []
+  }
  },
  "104": {
   "gw": 11,
@@ -1379,7 +1419,32 @@
    "Longstaff",
    "Nmecha"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    1,
+    4
+   ],
+   "scorers_home": [
+    {
+     "name": "Emegha",
+     "n": 1
+    }
+   ],
+   "scorers_away": [
+    {
+     "name": "Okafor",
+     "n": 2
+    },
+    {
+     "name": "Aaronson",
+     "n": 1
+    },
+    {
+     "name": "Calvert-Lewin",
+     "n": 1
+    }
+   ]
+  }
  },
  "105": {
   "gw": 11,
@@ -1405,7 +1470,32 @@
    "Lerma",
    "Strand Larsen"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    3,
+    2
+   ],
+   "scorers_home": [
+    {
+     "name": "Sakamoto",
+     "n": 1
+    },
+    {
+     "name": "Awoniyi",
+     "n": 1
+    }
+   ],
+   "scorers_away": [
+    {
+     "name": "Yeremy",
+     "n": 1
+    },
+    {
+     "name": "Strand Larsen",
+     "n": 1
+    }
+   ]
+  }
  },
  "110": {
   "gw": 11,
@@ -1431,7 +1521,23 @@
    "Akpom",
    "Clarke"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    2,
+    0
+   ],
+   "scorers_home": [
+    {
+     "name": "Solanke",
+     "n": 1
+    },
+    {
+     "name": "Williams-Barnett",
+     "n": 1
+    }
+   ],
+   "scorers_away": []
+  }
  },
  "109": {
   "gw": 11,
@@ -1457,7 +1563,32 @@
    "Merino",
    "\u00d8degaard"
   ],
-  "actual": null
+  "actual": {
+   "score": [
+    2,
+    2
+   ],
+   "scorers_home": [
+    {
+     "name": "Thiaw",
+     "n": 1
+    },
+    {
+     "name": "Barnes",
+     "n": 1
+    }
+   ],
+   "scorers_away": [
+    {
+     "name": "Eze",
+     "n": 1
+    },
+    {
+     "name": "Madueke",
+     "n": 1
+    }
+   ]
+  }
  },
  "106": {
   "gw": 11,
@@ -1543,18 +1674,18 @@
   "home": "Nott'm Forest",
   "away": "Chelsea",
   "pred": [
-   1,
-   0
+   2,
+   1
   ],
   "p": [
-   0.388,
-   0.272,
-   0.34
+   0.415,
+   0.253,
+   0.331
   ],
   "scorers_home": [
    "Wood",
-   "Delap",
-   "Igor Jesus"
+   "Igor Jesus",
+   "Delap"
   ],
   "scorers_away": [
    "Barco",
@@ -1573,18 +1704,18 @@
    1
   ],
   "p": [
-   0.565,
-   0.268,
-   0.167
+   0.667,
+   0.207,
+   0.125
   ],
   "scorers_home": [
    "Calvert-Lewin",
-   "Longstaff",
-   "Nmecha"
+   "Nmecha",
+   "Okafor"
   ],
   "scorers_away": [
    "Awoniyi",
-   "Rudoni",
+   "Thomas-Asante",
    "Simms"
   ],
   "actual": null
@@ -1599,9 +1730,9 @@
    2
   ],
   "p": [
-   0.312,
-   0.241,
-   0.447
+   0.322,
+   0.243,
+   0.436
   ],
   "scorers_home": [
    "Mount",
@@ -1621,23 +1752,23 @@
   "home": "Ipswich Town",
   "away": "Aston Villa",
   "pred": [
-   2,
-   1
+   1,
+   2
   ],
   "p": [
-   0.424,
-   0.215,
-   0.361
+   0.348,
+   0.238,
+   0.414
   ],
   "scorers_home": [
-   "Flemming",
    "Akpom",
+   "Flemming",
    "Clarke"
   ],
   "scorers_away": [
-   "N.Jackson",
    "McGinn",
-   "Manzambi"
+   "N.Jackson",
+   "Buend\u00eda"
   ],
   "actual": null
  },
@@ -1652,8 +1783,8 @@
   ],
   "p": [
    0.372,
-   0.295,
-   0.333
+   0.301,
+   0.327
   ],
   "scorers_home": [
    "Barry",
@@ -1677,9 +1808,9 @@
    1
   ],
   "p": [
-   0.796,
-   0.139,
-   0.065
+   0.779,
+   0.145,
+   0.076
   ],
   "scorers_home": [
    "Hinshelwood",
@@ -1688,7 +1819,7 @@
   ],
   "scorers_away": [
    "Wissa",
-   "Elanga",
+   "Willock",
    "Barnes"
   ],
   "actual": null
@@ -1703,14 +1834,14 @@
    2
   ],
   "p": [
-   0.29,
-   0.261,
-   0.448
+   0.288,
+   0.256,
+   0.456
   ],
   "scorers_home": [
    "Nketiah",
-   "Lerma",
-   "Strand Larsen"
+   "Strand Larsen",
+   "Lerma"
   ],
   "scorers_away": [
    "Gelhardt",
@@ -1729,19 +1860,19 @@
    1
   ],
   "p": [
-   0.318,
-   0.297,
-   0.385
+   0.298,
+   0.289,
+   0.413
   ],
   "scorers_home": [
-   "Gonzalo",
    "Muniz",
+   "Gonzalo",
    "Bobb"
   ],
   "scorers_away": [
    "Evanilson",
    "Tavernier",
-   "Rayan"
+   "Kluivert"
   ],
   "actual": null
  },
@@ -1755,9 +1886,9 @@
    1
   ],
   "p": [
-   0.303,
-   0.314,
-   0.384
+   0.218,
+   0.344,
+   0.439
   ],
   "scorers_home": [
    "Isidor",
@@ -1765,8 +1896,8 @@
    "Fofana"
   ],
   "scorers_away": [
-   "Gallagher",
    "Solanke",
+   "Gallagher",
    "Kudus"
   ],
   "actual": null
@@ -1781,19 +1912,19 @@
    1
   ],
   "p": [
-   0.61,
-   0.232,
-   0.158
+   0.536,
+   0.253,
+   0.211
   ],
   "scorers_home": [
-   "Havertz",
    "Merino",
-   "\u00d8degaard"
+   "Havertz",
+   "Eze"
   ],
   "scorers_away": [
    "Haaland",
    "Foden",
-   "O'Reilly"
+   "Cherki"
   ],
   "actual": null
  }

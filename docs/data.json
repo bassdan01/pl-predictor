@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-21T13:52:50+00:00",
+ "generated": "2026-11-21T22:34:56+00:00",
  "gameweek": 12,
  "gameweek_name": "Gameweek 12",
  "deadline": "2026-11-27T18:30:00Z",
  "uses_xg": true,
- "games_played": 100,
+ "games_played": 107,
  "fixtures": [
   {
    "id": 119,
@@ -12,49 +12,49 @@
    "kickoff": "2026-11-27T20:00:00Z",
    "home": "Nott'm Forest",
    "away": "Chelsea",
-   "xg_home": 1.39,
-   "xg_away": 1.28,
-   "p_home": 0.388,
-   "p_draw": 0.272,
-   "p_away": 0.34,
-   "pred_home": 1,
-   "pred_away": 0,
+   "xg_home": 1.59,
+   "xg_away": 1.4,
+   "p_home": 0.415,
+   "p_draw": 0.253,
+   "p_away": 0.331,
+   "pred_home": 2,
+   "pred_away": 1,
    "actual": null,
    "finished": false,
    "form_home": {
-    "form": "LLLDLW",
-    "xg_for": 1.59,
-    "xg_against": 1.18,
+    "form": "LLDLWL",
+    "xg_for": 1.75,
+    "xg_against": 1.55,
     "goals_for": 5,
-    "goals_against": 9
+    "goals_against": 10
    },
    "form_away": {
-    "form": "LWWLWL",
-    "xg_for": 1.26,
-    "xg_against": 1.51,
-    "goals_for": 9,
-    "goals_against": 7
+    "form": "WWLWLL",
+    "xg_for": 1.22,
+    "xg_against": 1.49,
+    "goals_for": 10,
+    "goals_against": 8
    },
    "injured_home": 0,
    "injured_away": 0,
    "scorers_home": [
     {
      "name": "Wood",
-     "prob": 0.437,
+     "prob": 0.705,
      "doubt": false,
      "pen": false,
      "fav": true
     },
     {
-     "name": "Delap",
-     "prob": 0.314,
+     "name": "Igor Jesus",
+     "prob": 0.389,
      "doubt": false,
      "pen": false,
      "fav": false
     },
     {
-     "name": "Igor Jesus",
-     "prob": 0.279,
+     "name": "Delap",
+     "prob": 0.338,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -63,21 +63,21 @@
    "scorers_away": [
     {
      "name": "Barco",
-     "prob": 0.325,
+     "prob": 0.265,
      "doubt": false,
      "pen": false,
      "fav": true
     },
     {
      "name": "Rogers",
-     "prob": 0.209,
+     "prob": 0.217,
      "doubt": false,
      "pen": false,
      "fav": false
     },
     {
      "name": "Palmer",
-     "prob": 0.179,
+     "prob": 0.182,
      "doubt": false,
      "pen": true,
      "fav": false
@@ -86,34 +86,34 @@
    "assists_home": [
     {
      "name": "Gibbs-White",
-     "prob": 0.222,
-     "doubt": false
-    },
-    {
-     "name": "Ndoye",
-     "prob": 0.142,
+     "prob": 0.243,
      "doubt": false
     },
     {
      "name": "McAtee",
-     "prob": 0.129,
+     "prob": 0.168,
+     "doubt": false
+    },
+    {
+     "name": "Ndoye",
+     "prob": 0.156,
      "doubt": false
     }
    ],
    "assists_away": [
     {
      "name": "Est\u00eav\u00e3o",
-     "prob": 0.244,
+     "prob": 0.218,
      "doubt": false
     },
     {
-     "name": "Henderson",
-     "prob": 0.089,
+     "name": "Neto",
+     "prob": 0.1,
      "doubt": false
     },
     {
      "name": "Chavarria",
-     "prob": 0.088,
+     "prob": 0.092,
      "doubt": false
     }
    ]
@@ -124,49 +124,49 @@
    "kickoff": "2026-11-28T15:00:00Z",
    "home": "Leeds",
    "away": "Coventry City",
-   "xg_home": 1.54,
-   "xg_away": 0.71,
-   "p_home": 0.565,
-   "p_draw": 0.268,
-   "p_away": 0.167,
+   "xg_home": 2.05,
+   "xg_away": 0.77,
+   "p_home": 0.667,
+   "p_draw": 0.207,
+   "p_away": 0.125,
    "pred_home": 2,
    "pred_away": 1,
    "actual": null,
    "finished": false,
    "form_home": {
-    "form": "DLDDLW",
-    "xg_for": 1.13,
-    "xg_against": 1.2,
-    "goals_for": 3,
-    "goals_against": 5
+    "form": "LDDLWW",
+    "xg_for": 1.37,
+    "xg_against": 1.13,
+    "goals_for": 7,
+    "goals_against": 6
    },
    "form_away": {
-    "form": "WWLLWL",
-    "xg_for": 0.89,
-    "xg_against": 1.27,
-    "goals_for": 10,
-    "goals_against": 9
+    "form": "WLLWLW",
+    "xg_for": 1.12,
+    "xg_against": 1.38,
+    "goals_for": 12,
+    "goals_against": 11
    },
    "injured_home": 0,
    "injured_away": 0,
    "scorers_home": [
     {
      "name": "Calvert-Lewin",
-     "prob": 0.332,
+     "prob": 0.427,
      "doubt": false,
      "pen": true,
      "fav": true
     },
     {
-     "name": "Longstaff",
-     "prob": 0.28,
+     "name": "Nmecha",
+     "prob": 0.291,
      "doubt": false,
      "pen": false,
      "fav": false
     },
     {
-     "name": "Nmecha",
-     "prob": 0.271,
+     "name": "Okafor",
+     "prob": 0.255,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -175,21 +175,21 @@
    "scorers_away": [
     {
      "name": "Awoniyi",
-     "prob": 0.185,
-     "doubt": false,
+     "prob": 0.277,
+     "doubt": true,
      "pen": false,
      "fav": true
     },
     {
-     "name": "Rudoni",
+     "name": "Thomas-Asante",
      "prob": 0.146,
      "doubt": false,
-     "pen": true,
+     "pen": false,
      "fav": false
     },
     {
      "name": "Simms",
-     "prob": 0.14,
+     "prob": 0.136,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -197,35 +197,35 @@
    ],
    "assists_home": [
     {
-     "name": "Justin",
-     "prob": 0.138,
+     "name": "Longstaff",
+     "prob": 0.159,
      "doubt": false
     },
     {
-     "name": "Longstaff",
-     "prob": 0.116,
+     "name": "Justin",
+     "prob": 0.141,
      "doubt": false
     },
     {
      "name": "Bogle",
-     "prob": 0.114,
+     "prob": 0.135,
      "doubt": false
     }
    ],
    "assists_away": [
     {
      "name": "Rudoni",
-     "prob": 0.1,
+     "prob": 0.106,
      "doubt": false
     },
     {
      "name": "Mason-Clark",
-     "prob": 0.085,
+     "prob": 0.094,
      "doubt": true
     },
     {
-     "name": "Torp",
-     "prob": 0.07,
+     "name": "Onyeka",
+     "prob": 0.078,
      "doubt": false
     }
    ]
@@ -236,11 +236,11 @@
    "kickoff": "2026-11-28T15:00:00Z",
    "home": "Man Utd",
    "away": "Brentford",
-   "xg_home": 1.44,
-   "xg_away": 1.76,
-   "p_home": 0.312,
-   "p_draw": 0.241,
-   "p_away": 0.447,
+   "xg_home": 1.46,
+   "xg_away": 1.73,
+   "p_home": 0.322,
+   "p_draw": 0.243,
+   "p_away": 0.436,
    "pred_home": 1,
    "pred_away": 2,
    "actual": null,
@@ -248,14 +248,14 @@
    "form_home": {
     "form": "DDDLLD",
     "xg_for": 1.55,
-    "xg_against": 2.12,
+    "xg_against": 1.85,
     "goals_for": 7,
     "goals_against": 12
    },
    "form_away": {
     "form": "WDLDWL",
     "xg_for": 1.27,
-    "xg_against": 1.56,
+    "xg_against": 1.42,
     "goals_for": 9,
     "goals_against": 7
    },
@@ -264,21 +264,21 @@
    "scorers_home": [
     {
      "name": "Mount",
-     "prob": 0.324,
+     "prob": 0.323,
      "doubt": false,
      "pen": false,
      "fav": true
     },
     {
      "name": "Dorgu",
-     "prob": 0.27,
+     "prob": 0.269,
      "doubt": true,
      "pen": false,
      "fav": false
     },
     {
      "name": "Mbeumo",
-     "prob": 0.255,
+     "prob": 0.254,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -287,21 +287,21 @@
    "scorers_away": [
     {
      "name": "Anthony",
-     "prob": 0.378,
+     "prob": 0.373,
      "doubt": false,
      "pen": false,
      "fav": true
     },
     {
      "name": "Schade",
-     "prob": 0.3,
+     "prob": 0.296,
      "doubt": false,
      "pen": false,
      "fav": false
     },
     {
      "name": "O.Dango",
-     "prob": 0.279,
+     "prob": 0.275,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -310,7 +310,7 @@
    "assists_home": [
     {
      "name": "B.Fernandes",
-     "prob": 0.156,
+     "prob": 0.155,
      "doubt": false
     },
     {
@@ -320,24 +320,24 @@
     },
     {
      "name": "Cunha",
-     "prob": 0.133,
+     "prob": 0.132,
      "doubt": false
     }
    ],
    "assists_away": [
     {
      "name": "Damsgaard",
-     "prob": 0.273,
+     "prob": 0.269,
      "doubt": false
     },
     {
      "name": "Schuster",
-     "prob": 0.263,
+     "prob": 0.259,
      "doubt": false
     },
     {
      "name": "O.Dango",
-     "prob": 0.158,
+     "prob": 0.156,
      "doubt": false
     }
    ]
@@ -348,42 +348,42 @@
    "kickoff": "2026-11-28T17:30:00Z",
    "home": "Ipswich Town",
    "away": "Aston Villa",
-   "xg_home": 2.06,
-   "xg_away": 1.89,
-   "p_home": 0.424,
-   "p_draw": 0.215,
-   "p_away": 0.361,
-   "pred_home": 2,
-   "pred_away": 1,
+   "xg_home": 1.59,
+   "xg_away": 1.75,
+   "p_home": 0.348,
+   "p_draw": 0.238,
+   "p_away": 0.414,
+   "pred_home": 1,
+   "pred_away": 2,
    "actual": null,
    "finished": false,
    "form_home": {
-    "form": "LWLDDL",
-    "xg_for": 1.2,
-    "xg_against": 2.12,
+    "form": "WLDDLL",
+    "xg_for": 1.04,
+    "xg_against": 2.19,
     "goals_for": 8,
-    "goals_against": 10
+    "goals_against": 11
    },
    "form_away": {
-    "form": "WDWWDD",
-    "xg_for": 1.74,
-    "xg_against": 1.84,
-    "goals_for": 13,
-    "goals_against": 10
+    "form": "DWWDDD",
+    "xg_for": 1.71,
+    "xg_against": 1.62,
+    "goals_for": 10,
+    "goals_against": 8
    },
    "injured_home": 0,
    "injured_away": 0,
    "scorers_home": [
     {
-     "name": "Flemming",
-     "prob": 0.629,
+     "name": "Akpom",
+     "prob": 0.524,
      "doubt": false,
      "pen": false,
      "fav": true
     },
     {
-     "name": "Akpom",
-     "prob": 0.578,
+     "name": "Flemming",
+     "prob": 0.446,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -398,22 +398,22 @@
    ],
    "scorers_away": [
     {
-     "name": "N.Jackson",
-     "prob": 0.435,
+     "name": "McGinn",
+     "prob": 0.439,
      "doubt": false,
-     "pen": false,
+     "pen": true,
      "fav": true
     },
     {
-     "name": "McGinn",
-     "prob": 0.397,
+     "name": "N.Jackson",
+     "prob": 0.433,
      "doubt": false,
-     "pen": true,
+     "pen": false,
      "fav": false
     },
     {
-     "name": "Manzambi",
-     "prob": 0.324,
+     "name": "Buend\u00eda",
+     "prob": 0.296,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -422,17 +422,17 @@
    "assists_home": [
     {
      "name": "Enciso",
-     "prob": 0.228,
+     "prob": 0.203,
      "doubt": false
     },
     {
      "name": "Fatawu",
-     "prob": 0.199,
+     "prob": 0.159,
      "doubt": false
     },
     {
      "name": "Clarke",
-     "prob": 0.161,
+     "prob": 0.081,
      "doubt": false
     }
    ],
@@ -444,12 +444,12 @@
     },
     {
      "name": "Manzambi",
-     "prob": 0.176,
+     "prob": 0.168,
      "doubt": false
     },
     {
      "name": "McGinn",
-     "prob": 0.118,
+     "prob": 0.148,
      "doubt": false
     }
    ]
@@ -460,11 +460,11 @@
    "kickoff": "2026-11-29T12:00:00Z",
    "home": "Everton",
    "away": "Liverpool",
-   "xg_home": 1.2,
-   "xg_away": 1.12,
+   "xg_home": 1.17,
+   "xg_away": 1.08,
    "p_home": 0.372,
-   "p_draw": 0.295,
-   "p_away": 0.333,
+   "p_draw": 0.301,
+   "p_away": 0.327,
    "pred_home": 1,
    "pred_away": 0,
    "actual": null,
@@ -472,14 +472,14 @@
    "form_home": {
     "form": "WDLLWW",
     "xg_for": 1.48,
-    "xg_against": 1.45,
+    "xg_against": 1.21,
     "goals_for": 7,
     "goals_against": 7
    },
    "form_away": {
     "form": "WLWWLW",
     "xg_for": 1.52,
-    "xg_against": 1.31,
+    "xg_against": 1.18,
     "goals_for": 8,
     "goals_against": 6
    },
@@ -488,21 +488,21 @@
    "scorers_home": [
     {
      "name": "Barry",
-     "prob": 0.42,
+     "prob": 0.412,
      "doubt": false,
      "pen": true,
      "fav": true
     },
     {
      "name": "Johnson",
-     "prob": 0.186,
+     "prob": 0.182,
      "doubt": false,
      "pen": false,
      "fav": false
     },
     {
      "name": "Dewsbury-Hall",
-     "prob": 0.126,
+     "prob": 0.124,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -511,21 +511,21 @@
    "scorers_away": [
     {
      "name": "Isak",
-     "prob": 0.32,
+     "prob": 0.31,
      "doubt": false,
      "pen": false,
      "fav": true
     },
     {
      "name": "Koumas",
-     "prob": 0.201,
+     "prob": 0.194,
      "doubt": false,
      "pen": false,
      "fav": false
     },
     {
      "name": "Barcola",
-     "prob": 0.151,
+     "prob": 0.146,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -534,34 +534,34 @@
    "assists_home": [
     {
      "name": "Dibling",
-     "prob": 0.272,
+     "prob": 0.267,
      "doubt": false
     },
     {
      "name": "Grealish",
-     "prob": 0.16,
+     "prob": 0.157,
      "doubt": false
     },
     {
      "name": "Maitland-Niles",
-     "prob": 0.154,
+     "prob": 0.151,
      "doubt": false
     }
    ],
    "assists_away": [
     {
      "name": "Szoboszlai",
-     "prob": 0.196,
+     "prob": 0.189,
      "doubt": false
     },
     {
      "name": "Gakpo",
-     "prob": 0.163,
+     "prob": 0.158,
      "doubt": false
     },
     {
      "name": "Wirtz",
-     "prob": 0.109,
+     "prob": 0.105,
      "doubt": false
     }
    ]
@@ -573,10 +573,10 @@
    "home": "Brighton",
    "away": "Newcastle",
    "xg_home": 2.67,
-   "xg_away": 0.66,
-   "p_home": 0.796,
-   "p_draw": 0.139,
-   "p_away": 0.065,
+   "xg_away": 0.74,
+   "p_home": 0.779,
+   "p_draw": 0.145,
+   "p_away": 0.076,
    "pred_home": 3,
    "pred_away": 1,
    "actual": null,
@@ -584,37 +584,37 @@
    "form_home": {
     "form": "WWWLWW",
     "xg_for": 1.58,
-    "xg_against": 1.09,
+    "xg_against": 0.82,
     "goals_for": 13,
     "goals_against": 2
    },
    "form_away": {
-    "form": "WLLWLD",
-    "xg_for": 1.28,
-    "xg_against": 1.56,
+    "form": "LLWLDD",
+    "xg_for": 1.32,
+    "xg_against": 1.54,
     "goals_for": 6,
-    "goals_against": 8
+    "goals_against": 9
    },
    "injured_home": 0,
    "injured_away": 0,
    "scorers_home": [
     {
      "name": "Hinshelwood",
-     "prob": 0.701,
+     "prob": 0.702,
      "doubt": false,
      "pen": false,
      "fav": true
     },
     {
      "name": "Kostoulas",
-     "prob": 0.254,
+     "prob": 0.255,
      "doubt": false,
      "pen": false,
      "fav": false
     },
     {
      "name": "Ayari",
-     "prob": 0.237,
+     "prob": 0.238,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -623,21 +623,21 @@
    "scorers_away": [
     {
      "name": "Wissa",
-     "prob": 0.21,
+     "prob": 0.177,
      "doubt": false,
      "pen": true,
      "fav": true
     },
     {
-     "name": "Elanga",
-     "prob": 0.133,
+     "name": "Willock",
+     "prob": 0.146,
      "doubt": false,
      "pen": false,
      "fav": false
     },
     {
      "name": "Barnes",
-     "prob": 0.124,
+     "prob": 0.129,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -646,7 +646,7 @@
    "assists_home": [
     {
      "name": "Georginio",
-     "prob": 0.444,
+     "prob": 0.445,
      "doubt": false
     },
     {
@@ -663,17 +663,17 @@
    "assists_away": [
     {
      "name": "Tour\u00e9",
-     "prob": 0.121,
+     "prob": 0.132,
      "doubt": false
     },
     {
      "name": "J.Murphy",
-     "prob": 0.102,
+     "prob": 0.096,
      "doubt": false
     },
     {
-     "name": "J.Ramsey",
-     "prob": 0.06,
+     "name": "Fernandez-Pardo",
+     "prob": 0.05,
      "doubt": false
     }
    ]
@@ -684,26 +684,26 @@
    "kickoff": "2026-11-29T14:05:00Z",
    "home": "Crystal Palace",
    "away": "Hull City",
-   "xg_home": 1.22,
-   "xg_away": 1.57,
-   "p_home": 0.29,
-   "p_draw": 0.261,
-   "p_away": 0.448,
+   "xg_home": 1.25,
+   "xg_away": 1.62,
+   "p_home": 0.288,
+   "p_draw": 0.256,
+   "p_away": 0.456,
    "pred_home": 1,
    "pred_away": 2,
    "actual": null,
    "finished": false,
    "form_home": {
-    "form": "DWLLLL",
-    "xg_for": 1.46,
-    "xg_against": 2.33,
-    "goals_for": 4,
-    "goals_against": 13
+    "form": "WLLLLL",
+    "xg_for": 1.57,
+    "xg_against": 2.46,
+    "goals_for": 6,
+    "goals_against": 16
    },
    "form_away": {
     "form": "LDLDDL",
     "xg_for": 0.96,
-    "xg_against": 1.43,
+    "xg_against": 1.19,
     "goals_for": 6,
     "goals_against": 9
    },
@@ -712,22 +712,22 @@
    "scorers_home": [
     {
      "name": "Nketiah",
-     "prob": 0.434,
+     "prob": 0.418,
      "doubt": false,
      "pen": false,
      "fav": true
     },
     {
-     "name": "Lerma",
-     "prob": 0.247,
+     "name": "Strand Larsen",
+     "prob": 0.305,
      "doubt": false,
      "pen": false,
      "fav": false
     },
     {
-     "name": "Strand Larsen",
-     "prob": 0.207,
-     "doubt": true,
+     "name": "Lerma",
+     "prob": 0.222,
+     "doubt": false,
      "pen": false,
      "fav": false
     }
@@ -735,21 +735,21 @@
    "scorers_away": [
     {
      "name": "Gelhardt",
-     "prob": 0.703,
+     "prob": 0.717,
      "doubt": false,
      "pen": false,
      "fav": true
     },
     {
      "name": "Cho",
-     "prob": 0.369,
+     "prob": 0.38,
      "doubt": false,
      "pen": false,
      "fav": false
     },
     {
      "name": "McBurnie",
-     "prob": 0.273,
+     "prob": 0.282,
      "doubt": false,
      "pen": true,
      "fav": false
@@ -758,34 +758,34 @@
    "assists_home": [
     {
      "name": "Wharton",
-     "prob": 0.114,
+     "prob": 0.104,
      "doubt": false
     },
     {
-     "name": "Yeremy",
-     "prob": 0.11,
+     "name": "Khalaili",
+     "prob": 0.103,
      "doubt": false
     },
     {
-     "name": "Strand Larsen",
-     "prob": 0.09,
-     "doubt": true
+     "name": "Mitchell",
+     "prob": 0.085,
+     "doubt": false
     }
    ],
    "assists_away": [
     {
      "name": "Cho",
-     "prob": 0.447,
+     "prob": 0.46,
      "doubt": false
     },
     {
      "name": "Thomas",
-     "prob": 0.269,
+     "prob": 0.278,
      "doubt": false
     },
     {
      "name": "Belloumi",
-     "prob": 0.193,
+     "prob": 0.2,
      "doubt": false
     }
    ]
@@ -796,49 +796,49 @@
    "kickoff": "2026-11-29T14:05:00Z",
    "home": "Fulham",
    "away": "Bournemouth",
-   "xg_home": 1.08,
-   "xg_away": 1.21,
-   "p_home": 0.318,
-   "p_draw": 0.297,
-   "p_away": 0.385,
+   "xg_home": 1.07,
+   "xg_away": 1.31,
+   "p_home": 0.298,
+   "p_draw": 0.289,
+   "p_away": 0.413,
    "pred_home": 0,
    "pred_away": 1,
    "actual": null,
    "finished": false,
    "form_home": {
-    "form": "DLWWDD",
-    "xg_for": 1.4,
-    "xg_against": 1.07,
+    "form": "LWWDDD",
+    "xg_for": 1.26,
+    "xg_against": 1.11,
     "goals_for": 6,
     "goals_against": 5
    },
    "form_away": {
-    "form": "LLWWWW",
-    "xg_for": 2.02,
-    "xg_against": 0.99,
-    "goals_for": 10,
-    "goals_against": 7
+    "form": "LWWWWW",
+    "xg_for": 2.36,
+    "xg_against": 1.05,
+    "goals_for": 12,
+    "goals_against": 6
    },
    "injured_home": 0,
    "injured_away": 0,
    "scorers_home": [
     {
-     "name": "Gonzalo",
-     "prob": 0.29,
+     "name": "Muniz",
+     "prob": 0.284,
      "doubt": false,
-     "pen": true,
+     "pen": false,
      "fav": true
     },
     {
-     "name": "Muniz",
-     "prob": 0.234,
+     "name": "Gonzalo",
+     "prob": 0.267,
      "doubt": false,
-     "pen": false,
+     "pen": true,
      "fav": false
     },
     {
      "name": "Bobb",
-     "prob": 0.184,
+     "prob": 0.188,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -847,21 +847,21 @@
    "scorers_away": [
     {
      "name": "Evanilson",
-     "prob": 0.338,
+     "prob": 0.39,
      "doubt": false,
      "pen": false,
      "fav": true
     },
     {
      "name": "Tavernier",
-     "prob": 0.279,
+     "prob": 0.267,
      "doubt": false,
      "pen": false,
      "fav": false
     },
     {
-     "name": "Rayan",
-     "prob": 0.176,
+     "name": "Kluivert",
+     "prob": 0.234,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -870,34 +870,34 @@
    "assists_home": [
     {
      "name": "Iwobi",
-     "prob": 0.231,
+     "prob": 0.212,
      "doubt": false
     },
     {
      "name": "Bobb",
-     "prob": 0.117,
+     "prob": 0.115,
      "doubt": false
     },
     {
      "name": "King",
-     "prob": 0.114,
+     "prob": 0.115,
      "doubt": false
     }
    ],
    "assists_away": [
+    {
+     "name": "Tavernier",
+     "prob": 0.16,
+     "doubt": false
+    },
     {
      "name": "Christie",
      "prob": 0.11,
      "doubt": false
     },
     {
-     "name": "Tavernier",
-     "prob": 0.095,
-     "doubt": false
-    },
-    {
      "name": "Truffert",
-     "prob": 0.081,
+     "prob": 0.078,
      "doubt": false
     }
    ]
@@ -908,49 +908,49 @@
    "kickoff": "2026-11-29T14:05:00Z",
    "home": "Sunderland",
    "away": "Spurs",
-   "xg_home": 0.96,
-   "xg_away": 1.12,
-   "p_home": 0.303,
-   "p_draw": 0.314,
-   "p_away": 0.384,
+   "xg_home": 0.65,
+   "xg_away": 1.05,
+   "p_home": 0.218,
+   "p_draw": 0.344,
+   "p_away": 0.439,
    "pred_home": 0,
    "pred_away": 1,
    "actual": null,
    "finished": false,
    "form_home": {
-    "form": "LLLDLW",
-    "xg_for": 1.58,
-    "xg_against": 1.76,
-    "goals_for": 5,
-    "goals_against": 12
+    "form": "LLDLWD",
+    "xg_for": 1.02,
+    "xg_against": 1.46,
+    "goals_for": 2,
+    "goals_against": 7
    },
    "form_away": {
-    "form": "LDWWWL",
-    "xg_for": 1.5,
-    "xg_against": 0.89,
+    "form": "DWWWLW",
+    "xg_for": 1.69,
+    "xg_against": 0.77,
     "goals_for": 10,
-    "goals_against": 6
+    "goals_against": 3
    },
    "injured_home": 0,
    "injured_away": 0,
    "scorers_home": [
     {
      "name": "Isidor",
-     "prob": 0.334,
+     "prob": 0.236,
      "doubt": false,
      "pen": false,
      "fav": true
     },
     {
      "name": "E.Le F\u00e9e",
-     "prob": 0.218,
+     "prob": 0.186,
      "doubt": false,
      "pen": true,
      "fav": false
     },
     {
      "name": "Fofana",
-     "prob": 0.206,
+     "prob": 0.092,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -958,22 +958,22 @@
    ],
    "scorers_away": [
     {
-     "name": "Gallagher",
-     "prob": 0.402,
+     "name": "Solanke",
+     "prob": 0.381,
      "doubt": false,
-     "pen": false,
+     "pen": true,
      "fav": true
     },
     {
-     "name": "Solanke",
-     "prob": 0.28,
+     "name": "Gallagher",
+     "prob": 0.242,
      "doubt": false,
-     "pen": true,
+     "pen": false,
      "fav": false
     },
     {
      "name": "Kudus",
-     "prob": 0.193,
+     "prob": 0.157,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -982,35 +982,35 @@
    "assists_home": [
     {
      "name": "Talbi",
-     "prob": 0.137,
+     "prob": 0.083,
      "doubt": false
     },
     {
      "name": "E.Le F\u00e9e",
-     "prob": 0.121,
+     "prob": 0.08,
      "doubt": false
     },
     {
      "name": "Meunier",
-     "prob": 0.099,
+     "prob": 0.038,
      "doubt": false
     }
    ],
    "assists_away": [
     {
+     "name": "Udogie",
+     "prob": 0.203,
+     "doubt": false
+    },
+    {
      "name": "Robertson",
-     "prob": 0.21,
+     "prob": 0.182,
      "doubt": false
     },
     {
      "name": "S\u00e1vio",
-     "prob": 0.2,
-     "doubt": false
-    },
-    {
-     "name": "Fernandes",
-     "prob": 0.162,
-     "doubt": false
+     "prob": 0.165,
+     "doubt": true
     }
    ]
   },
@@ -1020,49 +1020,49 @@
    "kickoff": "2026-11-29T16:30:00Z",
    "home": "Arsenal",
    "away": "Man City",
-   "xg_home": 1.85,
-   "xg_away": 0.83,
-   "p_home": 0.61,
-   "p_draw": 0.232,
-   "p_away": 0.158,
+   "xg_home": 1.69,
+   "xg_away": 0.97,
+   "p_home": 0.536,
+   "p_draw": 0.253,
+   "p_away": 0.211,
    "pred_home": 2,
    "pred_away": 1,
    "actual": null,
    "finished": false,
    "form_home": {
-    "form": "LWWWWW",
-    "xg_for": 1.55,
-    "xg_against": 0.82,
-    "goals_for": 7,
-    "goals_against": 4
+    "form": "WWWWWD",
+    "xg_for": 1.52,
+    "xg_against": 0.88,
+    "goals_for": 9,
+    "goals_against": 3
    },
    "form_away": {
-    "form": "WWWLLL",
-    "xg_for": 2.07,
-    "xg_against": 1.52,
-    "goals_for": 13,
-    "goals_against": 11
+    "form": "WWLLLD",
+    "xg_for": 1.91,
+    "xg_against": 1.04,
+    "goals_for": 9,
+    "goals_against": 9
    },
    "injured_home": 0,
    "injured_away": 0,
    "scorers_home": [
     {
-     "name": "Havertz",
+     "name": "Merino",
      "prob": 0.3,
      "doubt": false,
      "pen": false,
      "fav": true
     },
     {
-     "name": "Merino",
-     "prob": 0.297,
+     "name": "Havertz",
+     "prob": 0.215,
      "doubt": false,
      "pen": false,
      "fav": false
     },
     {
-     "name": "\u00d8degaard",
-     "prob": 0.204,
+     "name": "Eze",
+     "prob": 0.189,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -1071,21 +1071,21 @@
    "scorers_away": [
     {
      "name": "Haaland",
-     "prob": 0.259,
+     "prob": 0.302,
      "doubt": false,
      "pen": true,
      "fav": true
     },
     {
      "name": "Foden",
-     "prob": 0.184,
+     "prob": 0.196,
      "doubt": false,
      "pen": false,
      "fav": false
     },
     {
-     "name": "O'Reilly",
-     "prob": 0.182,
+     "name": "Cherki",
+     "prob": 0.169,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -1094,24 +1094,24 @@
    "assists_home": [
     {
      "name": "Madueke",
-     "prob": 0.257,
+     "prob": 0.208,
      "doubt": false
     },
     {
-     "name": "Gy\u00f6keres",
-     "prob": 0.205,
+     "name": "Rice",
+     "prob": 0.207,
      "doubt": false
     },
     {
      "name": "\u00d8degaard",
-     "prob": 0.195,
+     "prob": 0.201,
      "doubt": false
     }
    ],
    "assists_away": [
     {
      "name": "Foden",
-     "prob": 0.163,
+     "prob": 0.166,
      "doubt": false
     },
     {
@@ -1121,7 +1121,7 @@
     },
     {
      "name": "Enzo",
-     "prob": 0.092,
+     "prob": 0.109,
      "doubt": false
     }
    ]
@@ -1132,55 +1132,55 @@
    "team": "Brighton",
    "opp": "Newcastle",
    "venue": "H",
-   "win": 0.796
-  },
-  {
-   "team": "Arsenal",
-   "opp": "Man City",
-   "venue": "H",
-   "win": 0.61
+   "win": 0.779
   },
   {
    "team": "Leeds",
    "opp": "Coventry City",
    "venue": "H",
-   "win": 0.565
+   "win": 0.667
+  },
+  {
+   "team": "Arsenal",
+   "opp": "Man City",
+   "venue": "H",
+   "win": 0.536
   },
   {
    "team": "Hull City",
    "opp": "Crystal Palace",
    "venue": "A",
-   "win": 0.448
-  },
-  {
-   "team": "Brentford",
-   "opp": "Man Utd",
-   "venue": "A",
-   "win": 0.447
-  },
-  {
-   "team": "Ipswich Town",
-   "opp": "Aston Villa",
-   "venue": "H",
-   "win": 0.424
-  },
-  {
-   "team": "Nott'm Forest",
-   "opp": "Chelsea",
-   "venue": "H",
-   "win": 0.388
-  },
-  {
-   "team": "Bournemouth",
-   "opp": "Fulham",
-   "venue": "A",
-   "win": 0.385
+   "win": 0.456
   },
   {
    "team": "Spurs",
    "opp": "Sunderland",
    "venue": "A",
-   "win": 0.384
+   "win": 0.439
+  },
+  {
+   "team": "Brentford",
+   "opp": "Man Utd",
+   "venue": "A",
+   "win": 0.436
+  },
+  {
+   "team": "Nott'm Forest",
+   "opp": "Chelsea",
+   "venue": "H",
+   "win": 0.415
+  },
+  {
+   "team": "Aston Villa",
+   "opp": "Ipswich Town",
+   "venue": "A",
+   "win": 0.414
+  },
+  {
+   "team": "Bournemouth",
+   "opp": "Fulham",
+   "venue": "A",
+   "win": 0.413
   },
   {
    "team": "Everton",
@@ -1189,75 +1189,479 @@
    "win": 0.372
   },
   {
-   "team": "Aston Villa",
-   "opp": "Ipswich Town",
-   "venue": "A",
-   "win": 0.361
+   "team": "Ipswich Town",
+   "opp": "Aston Villa",
+   "venue": "H",
+   "win": 0.348
   },
   {
    "team": "Chelsea",
    "opp": "Nott'm Forest",
    "venue": "A",
-   "win": 0.34
+   "win": 0.331
   },
   {
    "team": "Liverpool",
    "opp": "Everton",
    "venue": "A",
-   "win": 0.333
-  },
-  {
-   "team": "Fulham",
-   "opp": "Bournemouth",
-   "venue": "H",
-   "win": 0.318
+   "win": 0.327
   },
   {
    "team": "Man Utd",
    "opp": "Brentford",
    "venue": "H",
-   "win": 0.312
+   "win": 0.322
   },
   {
-   "team": "Sunderland",
-   "opp": "Spurs",
+   "team": "Fulham",
+   "opp": "Bournemouth",
    "venue": "H",
-   "win": 0.303
+   "win": 0.298
   },
   {
    "team": "Crystal Palace",
    "opp": "Hull City",
    "venue": "H",
-   "win": 0.29
+   "win": 0.288
   },
   {
-   "team": "Coventry City",
-   "opp": "Leeds",
-   "venue": "A",
-   "win": 0.167
+   "team": "Sunderland",
+   "opp": "Spurs",
+   "venue": "H",
+   "win": 0.218
   },
   {
    "team": "Man City",
    "opp": "Arsenal",
    "venue": "A",
-   "win": 0.158
+   "win": 0.211
+  },
+  {
+   "team": "Coventry City",
+   "opp": "Leeds",
+   "venue": "A",
+   "win": 0.125
   },
   {
    "team": "Newcastle",
    "opp": "Brighton",
    "venue": "A",
-   "win": 0.065
+   "win": 0.076
   }
  ],
  "results": {
   "summary": {
-   "matches": 30,
-   "result_right": 15,
+   "matches": 37,
+   "result_right": 18,
    "exact": 4,
-   "scorers_named": 180,
-   "scorers_hit": 28
+   "scorers_named": 222,
+   "scorers_hit": 35
   },
   "matches": [
+   {
+    "gw": 11,
+    "kickoff": "2026-11-21T17:30:00Z",
+    "home": "Newcastle",
+    "away": "Arsenal",
+    "pred": [
+     1,
+     2
+    ],
+    "actual": [
+     2,
+     2
+    ],
+    "result_ok": false,
+    "exact": false,
+    "scored_home": [
+     {
+      "name": "Thiaw",
+      "n": 1
+     },
+     {
+      "name": "Barnes",
+      "n": 1
+     }
+    ],
+    "scored_away": [
+     {
+      "name": "Eze",
+      "n": 1
+     },
+     {
+      "name": "Madueke",
+      "n": 1
+     }
+    ],
+    "pred_home": [
+     {
+      "name": "Wissa",
+      "hit": false
+     },
+     {
+      "name": "Elanga",
+      "hit": false
+     },
+     {
+      "name": "Barnes",
+      "hit": true
+     }
+    ],
+    "pred_away": [
+     {
+      "name": "Havertz",
+      "hit": false
+     },
+     {
+      "name": "Merino",
+      "hit": false
+     },
+     {
+      "name": "\u00d8degaard",
+      "hit": false
+     }
+    ]
+   },
+   {
+    "gw": 11,
+    "kickoff": "2026-11-21T15:00:00Z",
+    "home": "Aston Villa",
+    "away": "Sunderland",
+    "pred": [
+     2,
+     1
+    ],
+    "actual": [
+     0,
+     0
+    ],
+    "result_ok": false,
+    "exact": false,
+    "scored_home": [],
+    "scored_away": [],
+    "pred_home": [
+     {
+      "name": "N.Jackson",
+      "hit": false
+     },
+     {
+      "name": "McGinn",
+      "hit": false
+     },
+     {
+      "name": "Manzambi",
+      "hit": false
+     }
+    ],
+    "pred_away": [
+     {
+      "name": "Isidor",
+      "hit": false
+     },
+     {
+      "name": "E.Le F\u00e9e",
+      "hit": false
+     },
+     {
+      "name": "Fofana",
+      "hit": false
+     }
+    ]
+   },
+   {
+    "gw": 11,
+    "kickoff": "2026-11-21T15:00:00Z",
+    "home": "Bournemouth",
+    "away": "Nott'm Forest",
+    "pred": [
+     2,
+     1
+    ],
+    "actual": [
+     2,
+     0
+    ],
+    "result_ok": true,
+    "exact": false,
+    "scored_home": [
+     {
+      "name": "Kluivert",
+      "n": 1
+     },
+     {
+      "name": "Evanilson",
+      "n": 1
+     }
+    ],
+    "scored_away": [],
+    "pred_home": [
+     {
+      "name": "Evanilson",
+      "hit": true
+     },
+     {
+      "name": "Tavernier",
+      "hit": false
+     },
+     {
+      "name": "Rayan",
+      "hit": false
+     }
+    ],
+    "pred_away": [
+     {
+      "name": "Wood",
+      "hit": false
+     },
+     {
+      "name": "Delap",
+      "hit": false
+     },
+     {
+      "name": "Igor Jesus",
+      "hit": false
+     }
+    ]
+   },
+   {
+    "gw": 11,
+    "kickoff": "2026-11-21T15:00:00Z",
+    "home": "Chelsea",
+    "away": "Leeds",
+    "pred": [
+     1,
+     0
+    ],
+    "actual": [
+     1,
+     4
+    ],
+    "result_ok": false,
+    "exact": false,
+    "scored_home": [
+     {
+      "name": "Emegha",
+      "n": 1
+     }
+    ],
+    "scored_away": [
+     {
+      "name": "Okafor",
+      "n": 2
+     },
+     {
+      "name": "Aaronson",
+      "n": 1
+     },
+     {
+      "name": "Calvert-Lewin",
+      "n": 1
+     }
+    ],
+    "pred_home": [
+     {
+      "name": "Barco",
+      "hit": false
+     },
+     {
+      "name": "Rogers",
+      "hit": false
+     },
+     {
+      "name": "Palmer",
+      "hit": false
+     }
+    ],
+    "pred_away": [
+     {
+      "name": "Calvert-Lewin",
+      "hit": true
+     },
+     {
+      "name": "Longstaff",
+      "hit": false
+     },
+     {
+      "name": "Nmecha",
+      "hit": false
+     }
+    ]
+   },
+   {
+    "gw": 11,
+    "kickoff": "2026-11-21T15:00:00Z",
+    "home": "Coventry City",
+    "away": "Crystal Palace",
+    "pred": [
+     2,
+     1
+    ],
+    "actual": [
+     3,
+     2
+    ],
+    "result_ok": true,
+    "exact": false,
+    "scored_home": [
+     {
+      "name": "Sakamoto",
+      "n": 1
+     },
+     {
+      "name": "Awoniyi",
+      "n": 1
+     }
+    ],
+    "scored_away": [
+     {
+      "name": "Yeremy",
+      "n": 1
+     },
+     {
+      "name": "Strand Larsen",
+      "n": 1
+     }
+    ],
+    "pred_home": [
+     {
+      "name": "Awoniyi",
+      "hit": true
+     },
+     {
+      "name": "Rudoni",
+      "hit": false
+     },
+     {
+      "name": "Simms",
+      "hit": false
+     }
+    ],
+    "pred_away": [
+     {
+      "name": "Nketiah",
+      "hit": false
+     },
+     {
+      "name": "Lerma",
+      "hit": false
+     },
+     {
+      "name": "Strand Larsen",
+      "hit": true
+     }
+    ]
+   },
+   {
+    "gw": 11,
+    "kickoff": "2026-11-21T15:00:00Z",
+    "home": "Spurs",
+    "away": "Ipswich Town",
+    "pred": [
+     2,
+     1
+    ],
+    "actual": [
+     2,
+     0
+    ],
+    "result_ok": true,
+    "exact": false,
+    "scored_home": [
+     {
+      "name": "Solanke",
+      "n": 1
+     },
+     {
+      "name": "Williams-Barnett",
+      "n": 1
+     }
+    ],
+    "scored_away": [],
+    "pred_home": [
+     {
+      "name": "Gallagher",
+      "hit": false
+     },
+     {
+      "name": "Solanke",
+      "hit": true
+     },
+     {
+      "name": "Kudus",
+      "hit": false
+     }
+    ],
+    "pred_away": [
+     {
+      "name": "Flemming",
+      "hit": false
+     },
+     {
+      "name": "Akpom",
+      "hit": false
+     },
+     {
+      "name": "Clarke",
+      "hit": false
+     }
+    ]
+   },
+   {
+    "gw": 11,
+    "kickoff": "2026-11-21T12:30:00Z",
+    "home": "Man City",
+    "away": "Fulham",
+    "pred": [
+     2,
+     1
+    ],
+    "actual": [
+     1,
+     1
+    ],
+    "result_ok": false,
+    "exact": false,
+    "scored_home": [
+     {
+      "name": "Anderson",
+      "n": 1
+     }
+    ],
+    "scored_away": [
+     {
+      "name": "Muniz",
+      "n": 1
+     }
+    ],
+    "pred_home": [
+     {
+      "name": "Haaland",
+      "hit": false
+     },
+     {
+      "name": "Foden",
+      "hit": false
+     },
+     {
+      "name": "O'Reilly",
+      "hit": false
+     }
+    ],
+    "pred_away": [
+     {
+      "name": "Gonzalo",
+      "hit": false
+     },
+     {
+      "name": "Muniz",
+      "hit": true
+     },
+     {
+      "name": "Bobb",
+      "hit": false
+     }
+    ]
+   },
    {
     "gw": 10,
     "kickoff": "2026-11-08T16:30:00Z",
