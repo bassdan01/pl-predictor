@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T22:34:56+00:00",
+ "generated": "2026-11-22T03:59:35+00:00",
  "gameweek": 12,
  "gameweek_name": "Gameweek 12",
  "deadline": "2026-11-27T18:30:00Z",
@@ -350,9 +350,9 @@
    "away": "Aston Villa",
    "xg_home": 1.59,
    "xg_away": 1.75,
-   "p_home": 0.348,
+   "p_home": 0.347,
    "p_draw": 0.238,
-   "p_away": 0.414,
+   "p_away": 0.415,
    "pred_home": 1,
    "pred_away": 2,
    "actual": null,
@@ -366,7 +366,7 @@
    },
    "form_away": {
     "form": "DWWDDD",
-    "xg_for": 1.71,
+    "xg_for": 1.72,
     "xg_against": 1.62,
     "goals_for": 10,
     "goals_against": 8
@@ -376,7 +376,7 @@
    "scorers_home": [
     {
      "name": "Akpom",
-     "prob": 0.524,
+     "prob": 0.523,
      "doubt": false,
      "pen": false,
      "fav": true
@@ -399,21 +399,21 @@
    "scorers_away": [
     {
      "name": "McGinn",
-     "prob": 0.439,
+     "prob": 0.442,
      "doubt": false,
      "pen": true,
      "fav": true
     },
     {
      "name": "N.Jackson",
-     "prob": 0.433,
+     "prob": 0.426,
      "doubt": false,
      "pen": false,
      "fav": false
     },
     {
-     "name": "Buend\u00eda",
-     "prob": 0.296,
+     "name": "Manzambi",
+     "prob": 0.308,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -439,7 +439,7 @@
    "assists_away": [
     {
      "name": "Mbaye",
-     "prob": 0.222,
+     "prob": 0.23,
      "doubt": false
     },
     {
@@ -449,7 +449,7 @@
     },
     {
      "name": "McGinn",
-     "prob": 0.148,
+     "prob": 0.16,
      "doubt": false
     }
    ]
@@ -630,14 +630,14 @@
     },
     {
      "name": "Willock",
-     "prob": 0.146,
+     "prob": 0.148,
      "doubt": false,
      "pen": false,
      "fav": false
     },
     {
      "name": "Barnes",
-     "prob": 0.129,
+     "prob": 0.128,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -910,9 +910,9 @@
    "away": "Spurs",
    "xg_home": 0.65,
    "xg_away": 1.05,
-   "p_home": 0.218,
-   "p_draw": 0.344,
-   "p_away": 0.439,
+   "p_home": 0.217,
+   "p_draw": 0.343,
+   "p_away": 0.44,
    "pred_home": 0,
    "pred_away": 1,
    "actual": null,
@@ -920,7 +920,7 @@
    "form_home": {
     "form": "LLDLWD",
     "xg_for": 1.02,
-    "xg_against": 1.46,
+    "xg_against": 1.47,
     "goals_for": 2,
     "goals_against": 7
    },
@@ -943,7 +943,7 @@
     },
     {
      "name": "E.Le F\u00e9e",
-     "prob": 0.186,
+     "prob": 0.185,
      "doubt": false,
      "pen": true,
      "fav": false
@@ -959,14 +959,14 @@
    "scorers_away": [
     {
      "name": "Solanke",
-     "prob": 0.381,
+     "prob": 0.382,
      "doubt": false,
      "pen": true,
      "fav": true
     },
     {
      "name": "Gallagher",
-     "prob": 0.242,
+     "prob": 0.243,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -999,12 +999,12 @@
    "assists_away": [
     {
      "name": "Udogie",
-     "prob": 0.203,
+     "prob": 0.204,
      "doubt": false
     },
     {
      "name": "Robertson",
-     "prob": 0.182,
+     "prob": 0.183,
      "doubt": false
     },
     {
@@ -1071,7 +1071,7 @@
    "scorers_away": [
     {
      "name": "Haaland",
-     "prob": 0.302,
+     "prob": 0.301,
      "doubt": false,
      "pen": true,
      "fav": true
@@ -1085,7 +1085,7 @@
     },
     {
      "name": "Cherki",
-     "prob": 0.169,
+     "prob": 0.168,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -1104,7 +1104,7 @@
     },
     {
      "name": "\u00d8degaard",
-     "prob": 0.201,
+     "prob": 0.206,
      "doubt": false
     }
    ],
@@ -1156,7 +1156,7 @@
    "team": "Spurs",
    "opp": "Sunderland",
    "venue": "A",
-   "win": 0.439
+   "win": 0.44
   },
   {
    "team": "Brentford",
@@ -1174,7 +1174,7 @@
    "team": "Aston Villa",
    "opp": "Ipswich Town",
    "venue": "A",
-   "win": 0.414
+   "win": 0.415
   },
   {
    "team": "Bournemouth",
@@ -1192,7 +1192,7 @@
    "team": "Ipswich Town",
    "opp": "Aston Villa",
    "venue": "H",
-   "win": 0.348
+   "win": 0.347
   },
   {
    "team": "Chelsea",
@@ -1228,7 +1228,7 @@
    "team": "Sunderland",
    "opp": "Spurs",
    "venue": "H",
-   "win": 0.218
+   "win": 0.217
   },
   {
    "team": "Man City",
