@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T04:43:18+00:00",
+ "generated": "2026-11-23T16:48:38+00:00",
  "gameweek": 12,
  "gameweek_name": "Gameweek 12",
  "deadline": "2026-11-27T18:30:00Z",
@@ -350,7 +350,7 @@
    "away": "Aston Villa",
    "xg_home": 1.64,
    "xg_away": 1.69,
-   "p_home": 0.37,
+   "p_home": 0.371,
    "p_draw": 0.239,
    "p_away": 0.391,
    "pred_home": 1,
@@ -399,7 +399,7 @@
    "scorers_away": [
     {
      "name": "McGinn",
-     "prob": 0.441,
+     "prob": 0.44,
      "doubt": false,
      "pen": true,
      "fav": true
@@ -734,22 +734,22 @@
    ],
    "scorers_away": [
     {
-     "name": "Gelhardt",
-     "prob": 0.709,
-     "doubt": false,
-     "pen": false,
-     "fav": true
-    },
-    {
      "name": "McBurnie",
      "prob": 0.382,
      "doubt": false,
      "pen": true,
-     "fav": false
+     "fav": true
     },
     {
      "name": "Belloumi",
      "prob": 0.264,
+     "doubt": false,
+     "pen": false,
+     "fav": false
+    },
+    {
+     "name": "Cho",
+     "prob": 0.256,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -912,7 +912,7 @@
    "xg_away": 1.03,
    "p_home": 0.224,
    "p_draw": 0.346,
-   "p_away": 0.43,
+   "p_away": 0.429,
    "pred_home": 0,
    "pred_away": 1,
    "actual": null,
@@ -926,7 +926,7 @@
    },
    "form_away": {
     "form": "DWWWLW",
-    "xg_for": 1.69,
+    "xg_for": 1.68,
     "xg_against": 0.77,
     "goals_for": 10,
     "goals_against": 3
@@ -1168,7 +1168,7 @@
    "team": "Spurs",
    "opp": "Sunderland",
    "venue": "A",
-   "win": 0.43
+   "win": 0.429
   },
   {
    "team": "Bournemouth",
@@ -1192,7 +1192,7 @@
    "team": "Ipswich Town",
    "opp": "Aston Villa",
    "venue": "H",
-   "win": 0.37
+   "win": 0.371
   },
   {
    "team": "Everton",

@@ -1792,7 +1792,7 @@
    2
   ],
   "p": [
-   0.37,
+   0.371,
    0.239,
    0.391
   ],
@@ -1880,9 +1880,9 @@
    "Lerma"
   ],
   "scorers_away": [
-   "Gelhardt",
    "McBurnie",
-   "Belloumi"
+   "Belloumi",
+   "Cho"
   ],
   "actual": null
  },
@@ -1924,7 +1924,7 @@
   "p": [
    0.224,
    0.346,
-   0.43
+   0.429
   ],
   "scorers_home": [
    "Isidor",
