@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T01:18:48+00:00",
+ "generated": "2026-11-26T16:00:01+00:00",
  "gameweek": 12,
  "gameweek_name": "Gameweek 12",
  "deadline": "2026-11-27T18:30:00Z",
@@ -174,24 +174,24 @@
    ],
    "scorers_away": [
     {
-     "name": "Awoniyi",
-     "prob": 0.277,
-     "doubt": true,
-     "pen": false,
-     "fav": true
-    },
-    {
      "name": "Thomas-Asante",
      "prob": 0.146,
      "doubt": false,
      "pen": false,
-     "fav": false
+     "fav": true
     },
     {
      "name": "Simms",
      "prob": 0.136,
      "doubt": false,
      "pen": false,
+     "fav": false
+    },
+    {
+     "name": "Rudoni",
+     "prob": 0.132,
+     "doubt": false,
+     "pen": true,
      "fav": false
     }
    ],
