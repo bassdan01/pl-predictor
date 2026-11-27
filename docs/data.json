@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T01:17:04+00:00",
+ "generated": "2026-11-27T15:49:17+00:00",
  "gameweek": 12,
  "gameweek_name": "Gameweek 12",
  "deadline": "2026-11-27T18:30:00Z",
@@ -12,11 +12,11 @@
    "kickoff": "2026-11-27T20:00:00Z",
    "home": "Nott'm Forest",
    "away": "Chelsea",
-   "xg_home": 1.64,
-   "xg_away": 1.33,
-   "p_home": 0.443,
-   "p_draw": 0.253,
-   "p_away": 0.305,
+   "xg_home": 1.6,
+   "xg_away": 1.37,
+   "p_home": 0.423,
+   "p_draw": 0.254,
+   "p_away": 0.323,
    "pred_home": 2,
    "pred_away": 1,
    "actual": null,
@@ -236,11 +236,11 @@
    "kickoff": "2026-11-28T15:00:00Z",
    "home": "Man Utd",
    "away": "Brentford",
-   "xg_home": 1.19,
-   "xg_away": 2.31,
-   "p_home": 0.181,
-   "p_draw": 0.2,
-   "p_away": 0.62,
+   "xg_home": 1.57,
+   "xg_away": 1.92,
+   "p_home": 0.314,
+   "p_draw": 0.229,
+   "p_away": 0.457,
    "pred_home": 1,
    "pred_away": 2,
    "actual": null,
@@ -279,7 +279,7 @@
     {
      "name": "B.Fernandes",
      "prob": 0.235,
-     "doubt": false,
+     "doubt": true,
      "pen": true,
      "fav": false
     }
@@ -311,7 +311,7 @@
     {
      "name": "B.Fernandes",
      "prob": 0.135,
-     "doubt": false
+     "doubt": true
     },
     {
      "name": "Tielemans",
@@ -460,11 +460,11 @@
    "kickoff": "2026-11-29T12:00:00Z",
    "home": "Everton",
    "away": "Liverpool",
-   "xg_home": 0.96,
-   "xg_away": 1.52,
-   "p_home": 0.233,
-   "p_draw": 0.271,
-   "p_away": 0.496,
+   "xg_home": 0.93,
+   "xg_away": 1.55,
+   "p_home": 0.221,
+   "p_draw": 0.268,
+   "p_away": 0.511,
    "pred_home": 1,
    "pred_away": 2,
    "actual": null,
@@ -572,12 +572,12 @@
    "kickoff": "2026-11-29T14:05:00Z",
    "home": "Brighton",
    "away": "Newcastle",
-   "xg_home": 2.58,
-   "xg_away": 0.88,
-   "p_home": 0.735,
-   "p_draw": 0.163,
-   "p_away": 0.102,
-   "pred_home": 3,
+   "xg_home": 2.41,
+   "xg_away": 1.05,
+   "p_home": 0.671,
+   "p_draw": 0.186,
+   "p_away": 0.144,
+   "pred_home": 2,
    "pred_away": 1,
    "actual": null,
    "finished": false,
@@ -796,11 +796,11 @@
    "kickoff": "2026-11-29T14:05:00Z",
    "home": "Fulham",
    "away": "Bournemouth",
-   "xg_home": 1.1,
-   "xg_away": 1.26,
-   "p_home": 0.317,
-   "p_draw": 0.291,
-   "p_away": 0.392,
+   "xg_home": 1.12,
+   "xg_away": 1.24,
+   "p_home": 0.326,
+   "p_draw": 0.292,
+   "p_away": 0.382,
    "pred_home": 0,
    "pred_away": 1,
    "actual": null,
@@ -910,9 +910,9 @@
    "away": "Spurs",
    "xg_home": 0.66,
    "xg_away": 1.01,
-   "p_home": 0.229,
+   "p_home": 0.227,
    "p_draw": 0.348,
-   "p_away": 0.423,
+   "p_away": 0.425,
    "pred_home": 0,
    "pred_away": 1,
    "actual": null,
@@ -1008,9 +1008,9 @@
      "doubt": false
     },
     {
-     "name": "S\u00e1vio",
-     "prob": 0.165,
-     "doubt": true
+     "name": "Fernandes",
+     "prob": 0.128,
+     "doubt": false
     }
    ]
   },
@@ -1020,11 +1020,11 @@
    "kickoff": "2026-11-29T16:30:00Z",
    "home": "Arsenal",
    "away": "Man City",
-   "xg_home": 1.72,
-   "xg_away": 0.93,
-   "p_home": 0.555,
-   "p_draw": 0.249,
-   "p_away": 0.197,
+   "xg_home": 1.64,
+   "xg_away": 1.02,
+   "p_home": 0.514,
+   "p_draw": 0.258,
+   "p_away": 0.229,
    "pred_home": 2,
    "pred_away": 1,
    "actual": null,
@@ -1129,28 +1129,16 @@
  ],
  "ranking": [
   {
-   "team": "Brighton",
-   "opp": "Newcastle",
-   "venue": "H",
-   "win": 0.735
-  },
-  {
    "team": "Leeds",
    "opp": "Coventry City",
    "venue": "H",
    "win": 0.687
   },
   {
-   "team": "Brentford",
-   "opp": "Man Utd",
-   "venue": "A",
-   "win": 0.62
-  },
-  {
-   "team": "Arsenal",
-   "opp": "Man City",
+   "team": "Brighton",
+   "opp": "Newcastle",
    "venue": "H",
-   "win": 0.555
+   "win": 0.671
   },
   {
    "team": "Hull City",
@@ -1159,34 +1147,46 @@
    "win": 0.517
   },
   {
+   "team": "Arsenal",
+   "opp": "Man City",
+   "venue": "H",
+   "win": 0.514
+  },
+  {
    "team": "Liverpool",
    "opp": "Everton",
    "venue": "A",
-   "win": 0.496
+   "win": 0.511
   },
   {
-   "team": "Nott'm Forest",
-   "opp": "Chelsea",
-   "venue": "H",
-   "win": 0.443
+   "team": "Brentford",
+   "opp": "Man Utd",
+   "venue": "A",
+   "win": 0.457
   },
   {
    "team": "Spurs",
    "opp": "Sunderland",
    "venue": "A",
-   "win": 0.423
+   "win": 0.425
   },
   {
-   "team": "Bournemouth",
-   "opp": "Fulham",
-   "venue": "A",
-   "win": 0.392
+   "team": "Nott'm Forest",
+   "opp": "Chelsea",
+   "venue": "H",
+   "win": 0.423
   },
   {
    "team": "Aston Villa",
    "opp": "Ipswich Town",
    "venue": "A",
    "win": 0.385
+  },
+  {
+   "team": "Bournemouth",
+   "opp": "Fulham",
+   "venue": "A",
+   "win": 0.382
   },
   {
    "team": "Ipswich Town",
@@ -1198,13 +1198,19 @@
    "team": "Fulham",
    "opp": "Bournemouth",
    "venue": "H",
-   "win": 0.317
+   "win": 0.326
   },
   {
    "team": "Chelsea",
    "opp": "Nott'm Forest",
    "venue": "A",
-   "win": 0.305
+   "win": 0.323
+  },
+  {
+   "team": "Man Utd",
+   "opp": "Brentford",
+   "venue": "H",
+   "win": 0.314
   },
   {
    "team": "Crystal Palace",
@@ -1213,40 +1219,34 @@
    "win": 0.244
   },
   {
-   "team": "Everton",
-   "opp": "Liverpool",
-   "venue": "H",
-   "win": 0.233
+   "team": "Man City",
+   "opp": "Arsenal",
+   "venue": "A",
+   "win": 0.229
   },
   {
    "team": "Sunderland",
    "opp": "Spurs",
    "venue": "H",
-   "win": 0.229
+   "win": 0.227
   },
   {
-   "team": "Man City",
-   "opp": "Arsenal",
-   "venue": "A",
-   "win": 0.197
-  },
-  {
-   "team": "Man Utd",
-   "opp": "Brentford",
+   "team": "Everton",
+   "opp": "Liverpool",
    "venue": "H",
-   "win": 0.181
+   "win": 0.221
+  },
+  {
+   "team": "Newcastle",
+   "opp": "Brighton",
+   "venue": "A",
+   "win": 0.144
   },
   {
    "team": "Coventry City",
    "opp": "Leeds",
    "venue": "A",
    "win": 0.114
-  },
-  {
-   "team": "Newcastle",
-   "opp": "Brighton",
-   "venue": "A",
-   "win": 0.102
   }
  ],
  "results": {
