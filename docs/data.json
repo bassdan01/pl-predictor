@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28T00:50:07+00:00",
+ "generated": "2026-11-28T14:44:08+00:00",
  "gameweek": 13,
  "gameweek_name": "Gameweek 13",
  "deadline": "2026-12-01T18:30:00Z",
@@ -92,7 +92,7 @@
     {
      "name": "Mason-Clark",
      "prob": 0.183,
-     "doubt": true
+     "doubt": false
     },
     {
      "name": "Onyeka",
@@ -124,19 +124,19 @@
    "kickoff": "2026-12-02T19:30:00Z",
    "home": "Chelsea",
    "away": "Crystal Palace",
-   "xg_home": 2.83,
+   "xg_home": 2.82,
    "xg_away": 1.5,
-   "p_home": 0.647,
+   "p_home": 0.648,
    "p_draw": 0.172,
    "p_away": 0.181,
    "pred_home": 3,
-   "pred_away": 2,
+   "pred_away": 1,
    "actual": null,
    "finished": false,
    "form_home": {
     "form": "WLWLLL",
     "xg_for": 1.24,
-    "xg_against": 1.5,
+    "xg_against": 1.49,
     "goals_for": 7,
     "goals_against": 10
    },
@@ -175,21 +175,21 @@
    "scorers_away": [
     {
      "name": "Nketiah",
-     "prob": 0.571,
+     "prob": 0.57,
      "doubt": false,
      "pen": false,
      "fav": true
     },
     {
      "name": "Strand Larsen",
-     "prob": 0.433,
+     "prob": 0.432,
      "doubt": false,
      "pen": false,
      "fav": false
     },
     {
      "name": "Lerma",
-     "prob": 0.324,
+     "prob": 0.323,
      "doubt": false,
      "pen": false,
      "fav": false
@@ -215,12 +215,12 @@
    "assists_away": [
     {
      "name": "Wharton",
-     "prob": 0.158,
+     "prob": 0.157,
      "doubt": false
     },
     {
      "name": "Khalaili",
-     "prob": 0.157,
+     "prob": 0.156,
      "doubt": false
     },
     {
@@ -237,7 +237,7 @@
    "home": "Hull City",
    "away": "Nott'm Forest",
    "xg_home": 1.46,
-   "xg_away": 0.85,
+   "xg_away": 0.84,
    "p_home": 0.509,
    "p_draw": 0.279,
    "p_away": 0.212,
@@ -254,8 +254,8 @@
    },
    "form_away": {
     "form": "LDLWLW",
-    "xg_for": 1.43,
-    "xg_against": 1.32,
+    "xg_for": 1.42,
+    "xg_against": 1.31,
     "goals_for": 7,
     "goals_against": 9
    },
@@ -301,7 +301,7 @@
     },
     {
      "name": "Gibbs-White",
-     "prob": 0.242,
+     "prob": 0.238,
      "doubt": false,
      "pen": true,
      "fav": false
@@ -974,7 +974,7 @@
     {
      "name": "B.Fernandes",
      "prob": 0.32,
-     "doubt": true,
+     "doubt": false,
      "pen": true,
      "fav": false
     }
@@ -1000,7 +1000,7 @@
     {
      "name": "B.Fernandes",
      "prob": 0.188,
-     "doubt": true
+     "doubt": false
     },
     {
      "name": "Tielemans",
@@ -1144,7 +1144,7 @@
    "team": "Chelsea",
    "opp": "Crystal Palace",
    "venue": "H",
-   "win": 0.647
+   "win": 0.648
   },
   {
    "team": "Hull City",
